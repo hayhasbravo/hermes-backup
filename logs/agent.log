@@ -1,0 +1,1059 @@
+2026-11-07 01:51:16,905 INFO hermes_cli.main: Checkout changed since last launch (unknown -> git:HEAD:2bd378ed1b8d6bf2192cb26e0a55ff3091e6bd19): cleared 8 stale __pycache__ directories
+2026-11-07 01:51:17,114 INFO hermes_cli.boot_bootstrap: home maintenance: code changed to 2bd378ed1b8d, running steps
+2026-11-07 01:52:49,125 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-11-07 01:52:49,129 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-11-07 01:52:49,133 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-11-07 01:52:49,225 INFO hermes_cli.plugins: Plugin 'default' registered delegation provider: default
+2026-11-07 01:52:49,236 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-11-07 01:52:49,239 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-11-07 01:52:49,248 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-11-07 01:52:49,251 INFO hermes_cli.plugins: Plugin 'meta-ai-image-gen' registered image_gen provider: meta-ai
+2026-11-07 01:52:49,255 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-11-07 01:52:49,259 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-11-07 01:52:49,269 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-11-07 01:52:49,269 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-11-07 01:52:49,276 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-11-07 01:52:49,475 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-11-07 01:52:49,482 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-11-07 01:52:49,488 INFO hermes_cli.plugins: Plugin 'openrouter' registered video_gen provider: openrouter
+2026-11-07 01:52:49,494 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-11-07 01:52:49,505 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-11-07 01:52:49,510 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-11-07 01:52:49,513 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-11-07 01:52:49,528 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-11-07 01:52:49,532 INFO hermes_cli.plugins: Plugin 'web-keenable' registered web provider: keenable
+2026-11-07 01:52:49,535 INFO hermes_cli.plugins: Plugin 'web-openai-native' registered web provider: openai-native
+2026-11-07 01:52:49,538 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-11-07 01:52:49,543 INFO hermes_cli.plugins: Plugin 'web-perplexity' registered web provider: perplexity
+2026-11-07 01:52:49,546 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-11-07 01:52:49,550 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-11-07 01:52:49,556 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-11-07 01:52:49,558 INFO hermes_cli.plugins: Plugin discovery complete: 63 found, 59 enabled
+2026-11-07 01:53:41,867 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 01:54:09,266 WARNING hermes_cli.source_releases: Could not resolve the stable source release: HTTP Error 403: rate limit exceeded
+2026-11-07 01:54:10,414 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-11-07 01:54:10,418 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-11-07 01:54:10,431 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-11-07 01:54:10,702 INFO hermes_cli.plugins: Plugin 'default' registered delegation provider: default
+2026-11-07 01:54:10,710 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-11-07 01:54:10,714 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-11-07 01:54:10,722 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-11-07 01:54:10,725 INFO hermes_cli.plugins: Plugin 'meta-ai-image-gen' registered image_gen provider: meta-ai
+2026-11-07 01:54:10,728 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-11-07 01:54:10,734 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-11-07 01:54:10,739 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-11-07 01:54:10,739 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-11-07 01:54:10,750 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-11-07 01:54:10,825 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-11-07 01:54:10,827 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-11-07 01:54:10,829 INFO hermes_cli.plugins: Plugin 'openrouter' registered video_gen provider: openrouter
+2026-11-07 01:54:10,831 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-11-07 01:54:10,861 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-11-07 01:54:10,864 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-11-07 01:54:10,872 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-11-07 01:54:10,889 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-11-07 01:54:10,899 INFO hermes_cli.plugins: Plugin 'web-keenable' registered web provider: keenable
+2026-11-07 01:54:10,904 INFO hermes_cli.plugins: Plugin 'web-openai-native' registered web provider: openai-native
+2026-11-07 01:54:10,913 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-11-07 01:54:10,928 INFO hermes_cli.plugins: Plugin 'web-perplexity' registered web provider: perplexity
+2026-11-07 01:54:10,934 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-11-07 01:54:10,942 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-11-07 01:54:10,951 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-11-07 01:54:10,955 INFO hermes_cli.plugins: Plugin discovery complete: 63 found, 59 enabled
+2026-11-07 01:54:11,873 WARNING hermes.security_audit: Security posture audit found 3 issue(s) — review your deployment:
+2026-11-07 01:54:11,873 WARNING hermes.security_audit:   [security 1/3] Running as ROOT. The agent's terminal/file tools execute with full root privileges — a single prompt-injection or exposed endpoint is a full host compromise. Run Hermes as an unprivileged user (or in a sandboxed terminal backend / container with a non-root user).
+2026-11-07 01:54:11,873 WARNING hermes.security_audit:   [security 2/3] SSH password authentication is ENABLED (default — no explicit directive). Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-11-07 01:54:11,873 WARNING hermes.security_audit:   [security 3/3] Running in a container but the data dir (/root/.hermes) is NOT on a persistent volume mount — sessions, memory, skills, and API keys are ephemeral and lost on container restart. Mount a host volume over the HERMES_HOME data directory.
+2026-11-07 01:54:13,111 INFO gateway.control_socket: Gateway control socket listening at /root/.hermes/gateway.sock
+2026-11-07 01:54:13,463 INFO gateway.run: Starting Hermes Gateway...
+2026-11-07 01:54:13,471 INFO gateway.run: Session storage: /root/.hermes/sessions
+2026-11-07 01:54:13,480 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, else the HERMES_MAX_ITERATIONS bridge)
+2026-11-07 01:54:13,480 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-11-07 01:54:13,555 INFO gateway.platform_registry: Platform 'Telegram' dependencies missing — attempting install...
+2026-11-07 01:54:30,454 INFO gateway.run: Connecting to telegram...
+2026-11-07 01:54:30,465 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-11-07 01:54:30,530 INFO run_agent: Loaded environment variables from /root/.hermes/.env
+2026-11-07 01:54:30,678 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-11-07 01:54:30,679 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-11-07 01:54:30,695 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-11-07 01:54:31,761 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:31,763 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:31,812 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:31,822 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:31,848 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 01:54:31,978 INFO agent.model_metadata: Cached context length upstage/solar-mini4:free@https://inference-api.nousresearch.com/v1 -> 524,288 tokens
+2026-11-07 01:54:31,985 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 01:54:31,994 INFO gateway.run: Model context warmed: upstage/solar-mini4:free -> 524288 tokens (detected)
+2026-11-07 01:54:31,995 INFO gateway.run: Turn machinery warmed in 1.5s (21 tool schema(s) materialized)
+2026-11-07 01:54:34,707 INFO plugins.platforms.telegram.telegram_network: [Telegram] Using sticky IPv4 Telegram API path 149.154.166.110 (dual-stack hostname tried last — #87015)
+2026-11-07 01:54:34,708 INFO telegram.ext.Application: Application started
+2026-11-07 01:54:34,869 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Cold boot: dropping Telegram updates queued while offline (platforms.telegram.extra.drop_pending_on_cold_boot: true)
+2026-11-07 01:54:45,546 INFO plugins.platforms.telegram.telegram_network: [Telegram] Using sticky IPv4 Telegram API path 149.154.166.110 (dual-stack hostname tried last — #87015)
+2026-11-07 01:54:45,547 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram polling confirmed healthy: getUpdates progressing (generation 1)
+2026-11-07 01:54:45,550 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-11-07 01:54:45,568 INFO gateway.run: ✓ telegram connected
+2026-11-07 01:54:45,913 INFO gateway.run: Gateway running with 1 platform(s)
+2026-11-07 01:54:45,930 INFO gateway.run: Channel directory built: 0 target(s)
+2026-11-07 01:54:46,618 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (60 cmds)
+2026-11-07 01:54:46,961 INFO gateway.run: Press Ctrl+C to stop
+2026-11-07 01:54:46,963 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/root/.hermes/kanban/.dispatcher.lock)
+2026-11-07 01:54:46,964 INFO gateway.run: kanban dispatcher: kanban.max_in_progress unset; using memory-derived default max_in_progress=8 (set kanban.max_in_progress in config.yaml to override)
+2026-11-07 01:54:46,971 INFO gateway.run: Cron scheduler will tick 1 profile(s): ['default']
+2026-11-07 01:54:46,977 INFO cron.scheduler_provider: In-process cron scheduler started (interval=60s)
+2026-11-07 01:54:46,980 INFO cron.scheduler_provider: Multiplex cron scheduler started for 1 profile(s): ['default'] (re-enumerated every cycle)
+2026-11-07 01:54:46,984 INFO gateway.run: Auto-started gateway: exits after 600s with no clients, adapters, cron/kanban work or admissions (gateway.unmanaged_idle_exit_seconds)
+2026-11-07 01:54:46,986 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (60 cmds)
+2026-11-07 01:54:46,995 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-11-07 01:54:47,520 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=220024->218364 rss_anon_kib=190544->188884 threads=16 duration_ms=7.7
+2026-11-07 01:54:48,228 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:34170
+2026-11-07 01:54:48,255 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (60 cmds)
+2026-11-07 01:54:48,255 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram menu: 60 commands registered, 48 hidden (over 60 limit). Use /commands for full list.
+2026-11-07 01:54:48,550 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 01:54:48,551 INFO tools.registry: check_fn _a2a_tools_available returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:48,552 INFO tools.registry: check_fn check_discord_tool_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:48,553 INFO tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:48,561 INFO tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:48,594 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 01:54:48,603 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 01:54:48,604 INFO tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:48,605 INFO tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:48,607 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 01:54:48,607 INFO tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:54:48,924 INFO run_agent: Loaded environment variables from /root/.hermes/.env
+2026-11-07 01:54:49,985 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-11-07 01:54:49,992 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-11-07 01:54:49,998 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-11-07 01:54:50,132 INFO hermes_cli.plugins: Plugin 'default' registered delegation provider: default
+2026-11-07 01:54:50,138 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-11-07 01:54:50,142 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-11-07 01:54:50,147 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-11-07 01:54:50,150 INFO hermes_cli.plugins: Plugin 'meta-ai-image-gen' registered image_gen provider: meta-ai
+2026-11-07 01:54:50,154 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-11-07 01:54:50,157 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-11-07 01:54:50,160 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-11-07 01:54:50,161 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-11-07 01:54:50,164 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-11-07 01:54:50,205 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-11-07 01:54:50,207 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-11-07 01:54:50,209 INFO hermes_cli.plugins: Plugin 'openrouter' registered video_gen provider: openrouter
+2026-11-07 01:54:50,211 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-11-07 01:54:50,213 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-11-07 01:54:50,215 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-11-07 01:54:50,217 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-11-07 01:54:50,219 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-11-07 01:54:50,221 INFO hermes_cli.plugins: Plugin 'web-keenable' registered web provider: keenable
+2026-11-07 01:54:50,223 INFO hermes_cli.plugins: Plugin 'web-openai-native' registered web provider: openai-native
+2026-11-07 01:54:50,225 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-11-07 01:54:50,226 INFO hermes_cli.plugins: Plugin 'web-perplexity' registered web provider: perplexity
+2026-11-07 01:54:50,228 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-11-07 01:54:50,230 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-11-07 01:54:50,233 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-11-07 01:54:50,234 INFO hermes_cli.plugins: Plugin discovery complete: 63 found, 59 enabled
+2026-11-07 01:54:51,965 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-11-07 01:55:47,645 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=250576->243080 rss_anon_kib=220900->213404 threads=23 duration_ms=1.4
+2026-11-07 01:56:13,894 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8547329604 → 1 (session_reset)
+2026-11-07 01:56:17,181 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (3 chars)
+2026-11-07 01:56:17,231 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Hay' reply_to_id=None reply_to_text=''
+2026-11-07 01:56:18,275 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_1:135630657353408 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 01:56:18,279 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:18,280 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:18,289 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:18,291 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:18,303 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 01:56:18,315 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 01:56:18,639 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=0 msg='Hay'
+2026-11-07 01:56:18,781 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 01:56:18,782 INFO agent.auxiliary_client: Auxiliary title_generation: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 01:56:18,969 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-20 (<lambda>):135630108104384 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 01:56:30,359 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=12125 out=51 total=12176 latency=11.6s cache=9600/12125 (79%) id=gen-1794016580-mA5GjKZJ0vYzx5NzmBMO
+2026-11-07 01:56:30,388 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=1/150 budget=1/150 tool_turns=0 last_msg_role=assistant response_len=34 session=20261107_015613_3f28979f
+2026-11-07 01:56:30,445 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=13.2s api_calls=1 response=34 chars
+2026-11-07 01:56:30,481 INFO gateway.platforms.base: [Telegram] Sending response (34 chars) to 8547329604
+2026-11-07 01:56:47,670 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357128->345840 rss_anon_kib=316868->305580 threads=27 duration_ms=1.8
+2026-11-07 01:56:51,513 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:42374
+2026-11-07 01:56:51,553 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,554 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,565 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,569 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,589 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 01:56:51,602 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 01:56:51,602 INFO tools.registry: check_fn _a2a_tools_available returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,603 INFO tools.registry: check_fn check_discord_tool_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,604 INFO tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,605 INFO tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,626 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 01:56:51,631 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 01:56:51,632 INFO tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,633 INFO tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,634 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 01:56:51,635 INFO tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 01:56:51,798 INFO run_agent: Loaded environment variables from /root/.hermes/.env
+2026-11-07 01:56:52,806 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-11-07 01:56:52,811 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-11-07 01:56:52,818 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-11-07 01:56:52,918 INFO hermes_cli.plugins: Plugin 'default' registered delegation provider: default
+2026-11-07 01:56:52,922 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-11-07 01:56:52,923 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-11-07 01:56:52,925 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-11-07 01:56:52,927 INFO hermes_cli.plugins: Plugin 'meta-ai-image-gen' registered image_gen provider: meta-ai
+2026-11-07 01:56:52,929 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-11-07 01:56:52,931 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-11-07 01:56:52,933 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-11-07 01:56:52,933 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-11-07 01:56:52,936 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-11-07 01:56:52,972 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-11-07 01:56:52,974 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-11-07 01:56:52,975 INFO hermes_cli.plugins: Plugin 'openrouter' registered video_gen provider: openrouter
+2026-11-07 01:56:52,977 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-11-07 01:56:52,980 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-11-07 01:56:52,984 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-11-07 01:56:52,986 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-11-07 01:56:52,988 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-11-07 01:56:52,990 INFO hermes_cli.plugins: Plugin 'web-keenable' registered web provider: keenable
+2026-11-07 01:56:52,992 INFO hermes_cli.plugins: Plugin 'web-openai-native' registered web provider: openai-native
+2026-11-07 01:56:52,994 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-11-07 01:56:52,996 INFO hermes_cli.plugins: Plugin 'web-perplexity' registered web provider: perplexity
+2026-11-07 01:56:52,998 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-11-07 01:56:53,000 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-11-07 01:56:53,002 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-11-07 01:56:53,003 INFO hermes_cli.plugins: Plugin discovery complete: 63 found, 59 enabled
+2026-11-07 01:57:04,581 INFO gateway.run: inbound message: platform=local user=uid:0 chat=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d msg='apa yang bisa kamu lakukan?' reply_to_id=None reply_to_text=''
+2026-11-07 01:57:04,612 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_1:135630657353408 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 01:57:04,653 INFO [local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d] agent.turn_context: conversation turn: session=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d model=upstage/solar-mini4:free provider=nous platform=cli history=0 msg='apa yang bisa kamu lakukan?'
+2026-11-07 01:57:04,699 INFO agent.auxiliary_client: Auxiliary title_generation: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 01:57:04,714 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-22 (<lambda>):135630124889792 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 01:57:12,633 INFO [local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=11890 out=426 total=12316 latency=7.9s cache=9600/11890 (81%) id=gen-1794016625-SZhKYhqjAHqSMAquQAD0
+2026-11-07 01:57:12,647 INFO [local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=1/150 budget=1/150 tool_turns=0 last_msg_role=assistant response_len=974 session=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d
+2026-11-07 01:57:12,664 INFO gateway.run: response ready: platform=local chat=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d session=agent:main:local:dm:local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d time=8.1s api_calls=1 response=974 chars
+2026-11-07 01:57:12,697 INFO gateway.platforms.base: [Local] Sending response (974 chars) to local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d
+2026-11-07 01:57:47,693 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351008->347548 rss_anon_kib=310748->307288 threads=26 duration_ms=1.3
+2026-11-07 01:57:53,930 INFO gateway.run: inbound message: platform=local user=uid:0 chat=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d msg='cek kinerja vps saya' reply_to_id=None reply_to_text=''
+2026-11-07 01:57:53,957 INFO [local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d] agent.turn_context: conversation turn: session=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d model=upstage/solar-mini4:free provider=nous platform=cli history=2 msg='cek kinerja vps saya'
+2026-11-07 01:58:00,647 INFO [local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d] agent.conversation_loop: API call #2: model=upstage/solar-mini4:free provider=nous in=12333 out=545 total=12878 latency=6.7s cache=11200/12333 (91%) id=gen-1794016674-D4HYLFy7LmbiMfOCCeQS
+2026-11-07 01:58:00,715 INFO tools.terminal_tool: Creating new local environment for task session:...
+2026-11-07 01:58:00,881 INFO tools.environments.base: Session snapshot created (session=cfd94ca4cb87, cwd=/workspaces/bravoAI)
+2026-11-07 01:58:00,881 INFO tools.terminal_tool: local environment ready for task session:
+2026-11-07 01:58:01,148 INFO [local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d] agent.tool_executor: tool terminal completed (0.45s, 35070 chars)
+2026-11-07 01:58:11,416 INFO [local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d] agent.conversation_loop: API call #3: model=upstage/solar-mini4:free provider=nous in=23547 out=841 total=24388 latency=10.2s cache=9600/23547 (41%) id=gen-1794016681-jktggh8MyZj4tqfBScDI
+2026-11-07 01:58:11,432 INFO [local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=2/150 budget=2/150 tool_turns=1 last_msg_role=assistant response_len=1159 session=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d
+2026-11-07 01:58:11,449 INFO gateway.run: response ready: platform=local chat=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d session=agent:main:local:dm:local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d time=17.5s api_calls=2 response=1159 chars
+2026-11-07 01:58:11,508 INFO gateway.platforms.base: [Local] Sending response (1159 chars) to local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d
+2026-11-07 01:58:47,726 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=356272->350028 rss_anon_kib=316012->309768 threads=27 duration_ms=1.4
+2026-11-07 01:59:47,751 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351408->350248 rss_anon_kib=311148->309988 threads=27 duration_ms=1.1
+2026-11-07 01:59:50,532 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (20 chars)
+2026-11-07 01:59:50,566 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Cek kinerja vps saya' reply_to_id=None reply_to_text=''
+2026-11-07 01:59:50,608 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=2 msg='Cek kinerja vps saya'
+2026-11-07 01:59:56,128 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #2: model=upstage/solar-mini4:free provider=nous in=12194 out=382 total=12576 latency=5.5s cache=11200/12194 (92%) id=gen-1794016790-0ExbbowSrm4HHx1659yB
+2026-11-07 01:59:56,499 INFO tools.terminal_tool: Creating new local environment for task session:...
+2026-11-07 01:59:56,573 INFO tools.environments.base: Session snapshot created (session=f3be93394b32, cwd=/root)
+2026-11-07 01:59:56,573 INFO tools.terminal_tool: local environment ready for task session:
+2026-11-07 01:59:56,656 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.16s, 468 chars)
+2026-11-07 02:00:01,275 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #3: model=upstage/solar-mini4:free provider=nous in=12790 out=269 total=13059 latency=4.6s cache=11200/12790 (88%) id=gen-1794016797-SWPWJD3B7lD4x1wrX0ZK
+2026-11-07 02:00:01,402 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.12s, 18426 chars)
+2026-11-07 02:00:24,597 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #4: model=upstage/solar-mini4:free provider=nous in=18714 out=1192 total=19906 latency=23.2s cache=9600/18714 (51%) id=gen-1794016802-zyO9EiEtlBsPMbDoRD2I
+2026-11-07 02:00:25,054 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.45s, 1875 chars)
+2026-11-07 02:00:37,723 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #5: model=upstage/solar-mini4:free provider=nous in=21001 out=780 total=21781 latency=12.7s cache=11200/21001 (53%) id=gen-1794016826-gYEz0Ov3weTaYrD2u0H4
+2026-11-07 02:00:37,737 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=4/150 budget=4/150 tool_turns=3 last_msg_role=assistant response_len=1355 session=20261107_015613_3f28979f
+2026-11-07 02:00:37,752 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=47.2s api_calls=4 response=1355 chars
+2026-11-07 02:00:37,801 INFO gateway.platforms.base: [Telegram] Sending response (1355 chars) to 8547329604
+2026-11-07 02:00:47,781 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357776->351764 rss_anon_kib=317512->311500 threads=30 duration_ms=1.5
+2026-11-07 02:01:47,812 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353144->351848 rss_anon_kib=312880->311584 threads=26 duration_ms=0.8
+2026-11-07 02:02:47,856 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353576->352260 rss_anon_kib=313312->311996 threads=26 duration_ms=0.7
+2026-11-07 02:03:47,886 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353820->352468 rss_anon_kib=313556->312204 threads=27 duration_ms=0.7
+2026-11-07 02:04:00,759 INFO tools.terminal_tool: Cleaned up inactive environment for task: session:agent:main:local:dm:local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d
+2026-11-07 02:04:47,909 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353936->351940 rss_anon_kib=313672->311676 threads=27 duration_ms=1.2
+2026-11-07 02:04:59,285 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (38 chars)
+2026-11-07 02:04:59,324 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Apakah disini saya bisa deploy website' reply_to_id=None reply_to_text=''
+2026-11-07 02:04:59,689 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=10 msg='Apakah disini saya bisa deploy website'
+2026-11-07 02:05:09,560 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #6: model=upstage/solar-mini4:free provider=nous in=21799 out=472 total=22271 latency=9.8s cache=9600/21799 (44%) id=gen-1794017100-elcZa0meBcR1FUJKPGKl
+2026-11-07 02:05:11,247 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (1.68s, 1358 chars)
+2026-11-07 02:05:22,917 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #7: model=upstage/solar-mini4:free provider=nous in=23024 out=1074 total=24098 latency=11.6s cache=9600/23024 (42%) id=gen-1794017112-wlY8KrSaX66ROJpAgXPI
+2026-11-07 02:05:22,945 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=2/150 budget=2/150 tool_turns=4 last_msg_role=assistant response_len=2228 session=20261107_015613_3f28979f
+2026-11-07 02:05:22,978 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=23.7s api_calls=2 response=2228 chars
+2026-11-07 02:05:23,018 INFO gateway.platforms.base: [Telegram] Sending response (2228 chars) to 8547329604
+2026-11-07 02:05:47,934 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=356652->352252 rss_anon_kib=316240->311840 threads=28 duration_ms=2.1
+2026-11-07 02:06:47,973 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353612->352260 rss_anon_kib=313200->311848 threads=26 duration_ms=1.0
+2026-11-07 02:07:48,005 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353604->352436 rss_anon_kib=313192->312024 threads=26 duration_ms=1.0
+2026-11-07 02:08:48,034 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353904->352740 rss_anon_kib=313492->312328 threads=27 duration_ms=0.7
+2026-11-07 02:09:48,058 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=354116->352536 rss_anon_kib=313704->312124 threads=26 duration_ms=1.1
+2026-11-07 02:10:48,321 INFO hermes_cli.mem_trim: idle full collection: reason=messaging gateway housekeeping quiet_s=325 unreachable=770 duration_ms=232.9
+2026-11-07 02:10:48,324 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping after idle collection malloc_trim=1 collected=False rss_kib=353820->352428 rss_anon_kib=313408->312016 threads=26 duration_ms=1.2
+2026-11-07 02:11:00,804 INFO tools.terminal_tool: Cleaned up inactive environment for task: session:agent:main:telegram:dm:8547329604
+2026-11-07 02:11:48,348 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353604->352396 rss_anon_kib=313192->311984 threads=27 duration_ms=1.0
+2026-11-07 02:12:48,374 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353944->352420 rss_anon_kib=313532->312008 threads=26 duration_ms=1.1
+2026-11-07 02:13:48,402 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=353668->352288 rss_anon_kib=313256->311876 threads=26 duration_ms=0.9
+2026-11-07 02:13:48,837 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (130 chars)
+2026-11-07 02:13:48,877 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Baik saya ingin bertanya karena saya berjalan di workspace development jadi kapa' reply_to_id=None reply_to_text=''
+2026-11-07 02:13:49,448 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=14 msg='Baik saya ingin bertanya karena saya berjalan di workspace development jadi kapa...'
+2026-11-07 02:14:06,592 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #8: model=upstage/solar-mini4:free provider=nous in=24137 out=1830 total=25967 latency=17.1s cache=9600/24137 (40%) id=gen-1794017630-I277jnityWSw4LAvpN9D
+2026-11-07 02:14:06,611 INFO tools.terminal_tool: Creating new local environment for task session:...
+2026-11-07 02:14:06,693 INFO tools.environments.base: Session snapshot created (session=b2e1039aa680, cwd=/root)
+2026-11-07 02:14:06,694 INFO tools.terminal_tool: local environment ready for task session:
+2026-11-07 02:14:06,772 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.17s, 119 chars)
+2026-11-07 02:14:11,807 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #9: model=upstage/solar-mini4:free provider=nous in=26025 out=160 total=26185 latency=5.0s cache=8000/26025 (31%) id=gen-1794017648-SSnNuQIlAAkvSPzTIAej
+2026-11-07 02:14:11,982 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.17s, 1707 chars)
+2026-11-07 02:14:19,026 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #10: model=upstage/solar-mini4:free provider=nous in=26983 out=196 total=27179 latency=7.0s cache=9600/26983 (36%) id=gen-1794017653-uJEBh5HteCYSlDIWxHrh
+2026-11-07 02:14:19,144 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.11s, 604 chars)
+2026-11-07 02:14:27,959 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #11: model=upstage/solar-mini4:free provider=nous in=27444 out=587 total=28031 latency=8.8s cache=9600/27444 (35%) id=gen-1794017659-eQ3SI6KVSF9CNbh84pSo
+2026-11-07 02:14:28,066 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.10s, 1245 chars)
+2026-11-07 02:14:44,763 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #12: model=upstage/solar-mini4:free provider=nous in=28603 out=1298 total=29901 latency=16.7s cache=12800/28603 (45%) id=gen-1794017669-lpgLaG6vB93TsT5pjU8C
+2026-11-07 02:14:44,787 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=5/150 budget=5/150 tool_turns=8 last_msg_role=assistant response_len=2310 session=20261107_015613_3f28979f
+2026-11-07 02:14:44,804 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=55.9s api_calls=5 response=2310 chars
+2026-11-07 02:14:44,859 INFO gateway.platforms.base: [Telegram] Sending response (2310 chars) to 8547329604
+2026-11-07 02:14:48,426 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=360456->353128 rss_anon_kib=320044->312716 threads=31 duration_ms=1.6
+2026-11-07 02:15:48,450 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=358344->355872 rss_anon_kib=317932->315460 threads=26 duration_ms=1.2
+2026-11-07 02:16:48,497 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357412->356072 rss_anon_kib=317000->315660 threads=27 duration_ms=0.8
+2026-11-07 02:17:48,554 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357656->356332 rss_anon_kib=317244->315920 threads=27 duration_ms=1.4
+2026-11-07 02:18:48,591 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=358072->356588 rss_anon_kib=317660->316176 threads=27 duration_ms=0.7
+2026-11-07 02:19:48,082 INFO hermes_cli.mem_trim: idle full collection: reason=idle reaper periodic trim quiet_s=302 unreachable=508 duration_ms=321.2
+2026-11-07 02:19:48,084 INFO hermes_cli.mem_trim: memory trim: reason=idle reaper periodic trim after idle collection malloc_trim=1 collected=False rss_kib=358040->355980 rss_anon_kib=317628->315568 threads=26 duration_ms=1.2
+2026-11-07 02:20:01,085 INFO tools.terminal_tool: Cleaned up inactive environment for task: session:agent:main:telegram:dm:8547329604
+2026-11-07 02:20:48,680 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357468->355972 rss_anon_kib=317056->315560 threads=27 duration_ms=1.0
+2026-11-07 02:21:48,705 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357604->356144 rss_anon_kib=317192->315732 threads=27 duration_ms=0.9
+2026-11-07 02:22:48,731 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357580->355880 rss_anon_kib=317116->315416 threads=26 duration_ms=1.0
+2026-11-07 02:23:48,837 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357620->355940 rss_anon_kib=317156->315476 threads=26 duration_ms=0.9
+2026-11-07 02:24:48,869 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357560->356148 rss_anon_kib=317096->315684 threads=26 duration_ms=0.9
+2026-11-07 02:25:48,906 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=357680->355976 rss_anon_kib=317216->315512 threads=26 duration_ms=1.1
+2026-11-07 02:26:46,813 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (121 chars)
+2026-11-07 02:26:46,856 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Bagaimana saya membackup file yg ada di codespaces agar setiap 30 hari saya tida' reply_to_id=None reply_to_text=''
+2026-11-07 02:26:47,835 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_11:135630121428672 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:26:47,837 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:26:47,838 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:26:47,851 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:26:47,854 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:26:47,866 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 02:26:47,879 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 02:26:47,894 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=24 msg='Bagaimana saya membackup file yg ada di codespaces agar setiap 30 hari saya tida...'
+2026-11-07 02:26:47,974 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-64 (<lambda>):135630056707776 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:26:48,932 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=363148->357140 rss_anon_kib=322684->316676 threads=29 duration_ms=1.9
+2026-11-07 02:27:18,039 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=29944 out=3153 total=33097 latency=30.1s cache=9600/29944 (32%) id=gen-1794018408-pEplncBnAth8lKKEY4OD
+2026-11-07 02:27:18,062 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=1/150 budget=1/150 tool_turns=8 last_msg_role=assistant response_len=2679 session=20261107_015613_3f28979f
+2026-11-07 02:27:18,102 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=31.2s api_calls=1 response=2679 chars
+2026-11-07 02:27:18,156 INFO gateway.platforms.base: [Telegram] Sending response (2679 chars) to 8547329604
+2026-11-07 02:32:05,275 INFO hermes_cli.active_sessions: Pruned 2 stale active session lease(s)
+2026-11-07 02:32:07,457 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-11-07 02:32:07,465 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-11-07 02:32:07,472 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-11-07 02:32:07,589 INFO hermes_cli.plugins: Plugin 'default' registered delegation provider: default
+2026-11-07 02:32:07,598 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-11-07 02:32:07,603 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-11-07 02:32:07,606 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-11-07 02:32:07,609 INFO hermes_cli.plugins: Plugin 'meta-ai-image-gen' registered image_gen provider: meta-ai
+2026-11-07 02:32:07,613 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-11-07 02:32:07,620 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-11-07 02:32:07,623 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-11-07 02:32:07,623 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-11-07 02:32:07,627 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-11-07 02:32:07,645 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-11-07 02:32:07,652 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-11-07 02:32:07,657 INFO hermes_cli.plugins: Plugin 'openrouter' registered video_gen provider: openrouter
+2026-11-07 02:32:07,662 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-11-07 02:32:07,714 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-11-07 02:32:07,721 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-11-07 02:32:07,724 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-11-07 02:32:07,728 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-11-07 02:32:07,730 INFO hermes_cli.plugins: Plugin 'web-keenable' registered web provider: keenable
+2026-11-07 02:32:07,732 INFO hermes_cli.plugins: Plugin 'web-openai-native' registered web provider: openai-native
+2026-11-07 02:32:07,734 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-11-07 02:32:07,736 INFO hermes_cli.plugins: Plugin 'web-perplexity' registered web provider: perplexity
+2026-11-07 02:32:07,738 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-11-07 02:32:07,740 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-11-07 02:32:07,742 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-11-07 02:32:07,743 INFO hermes_cli.plugins: Plugin discovery complete: 63 found, 59 enabled
+2026-11-07 02:32:09,848 WARNING hermes.security_audit: Security posture audit found 3 issue(s) — review your deployment:
+2026-11-07 02:32:09,849 WARNING hermes.security_audit:   [security 1/3] Running as ROOT. The agent's terminal/file tools execute with full root privileges — a single prompt-injection or exposed endpoint is a full host compromise. Run Hermes as an unprivileged user (or in a sandboxed terminal backend / container with a non-root user).
+2026-11-07 02:32:09,849 WARNING hermes.security_audit:   [security 2/3] SSH password authentication is ENABLED (default — no explicit directive). Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-11-07 02:32:09,849 WARNING hermes.security_audit:   [security 3/3] Running in a container but the data dir (/root/.hermes) is NOT on a persistent volume mount — sessions, memory, skills, and API keys are ephemeral and lost on container restart. Mount a host volume over the HERMES_HOME data directory.
+2026-11-07 02:32:11,163 INFO gateway.control_socket: Gateway control socket listening at /root/.hermes/gateway.sock
+2026-11-07 02:32:11,696 WARNING gateway.lifecycle_ledger: Previous gateway life (pid=26510, started_at=2026-11-07T01:54:13.270985+00:00) exited UNCLEANLY (no exit path ran — SIGKILL / OOM / VM death, or a process kill issued by the agent or one of its descendants, e.g. a pkill/taskkill of the host interpreter image; see #113667). last_heartbeat_at=2026-11-07T02:27:16.309844+00:00 last_mem={'rss_kib': 358856, 'mem_total_kib': 8132888, 'mem_available_kib': 3073080, 'swap_used_kib': 0} suspected_oom=False
+2026-11-07 02:32:12,677 INFO gateway.run: Starting Hermes Gateway...
+2026-11-07 02:32:12,679 INFO gateway.run: Session storage: /root/.hermes/sessions
+2026-11-07 02:32:12,688 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, else the HERMES_MAX_ITERATIONS bridge)
+2026-11-07 02:32:12,688 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-11-07 02:32:12,860 INFO gateway.run: Connecting to telegram...
+2026-11-07 02:32:12,866 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-11-07 02:32:12,988 INFO run_agent: Loaded environment variables from /root/.hermes/.env
+2026-11-07 02:32:13,196 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-11-07 02:32:13,196 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-11-07 02:32:13,202 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-11-07 02:32:13,603 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:13,604 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:13,621 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:13,623 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:13,643 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 02:32:13,725 INFO plugins.platforms.telegram.telegram_network: [Telegram] Using sticky IPv4 Telegram API path 149.154.166.110 (dual-stack hostname tried last — #87015)
+2026-11-07 02:32:13,726 INFO telegram.ext.Application: Application started
+2026-11-07 02:32:13,740 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 02:32:13,913 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Cold boot: dropping Telegram updates queued while offline (platforms.telegram.extra.drop_pending_on_cold_boot: true)
+2026-11-07 02:32:14,217 INFO gateway.run: Model context warmed: upstage/solar-mini4:free -> 524288 tokens (detected)
+2026-11-07 02:32:14,217 INFO gateway.run: Turn machinery warmed in 1.4s (21 tool schema(s) materialized)
+2026-11-07 02:32:24,600 INFO plugins.platforms.telegram.telegram_network: [Telegram] Using sticky IPv4 Telegram API path 149.154.166.110 (dual-stack hostname tried last — #87015)
+2026-11-07 02:32:24,601 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram polling confirmed healthy: getUpdates progressing (generation 1)
+2026-11-07 02:32:24,604 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-11-07 02:32:24,613 INFO gateway.run: ✓ telegram connected
+2026-11-07 02:32:24,812 INFO gateway.run: Gateway running with 1 platform(s)
+2026-11-07 02:32:24,818 INFO gateway.run: Channel directory built: 1 target(s)
+2026-11-07 02:32:25,444 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (60 cmds)
+2026-11-07 02:32:25,777 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (60 cmds)
+2026-11-07 02:32:26,009 INFO gateway.run: Press Ctrl+C to stop
+2026-11-07 02:32:26,011 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/root/.hermes/kanban/.dispatcher.lock)
+2026-11-07 02:32:26,012 INFO gateway.run: kanban dispatcher: kanban.max_in_progress unset; using memory-derived default max_in_progress=8 (set kanban.max_in_progress in config.yaml to override)
+2026-11-07 02:32:26,017 INFO gateway.run: Cron scheduler will tick 1 profile(s): ['default']
+2026-11-07 02:32:26,021 INFO cron.scheduler_provider: In-process cron scheduler started (interval=60s)
+2026-11-07 02:32:26,021 INFO gateway.run: Auto-started gateway: exits after 600s with no clients, adapters, cron/kanban work or admissions (gateway.unmanaged_idle_exit_seconds)
+2026-11-07 02:32:26,023 INFO cron.scheduler_provider: Multiplex cron scheduler started for 1 profile(s): ['default'] (re-enumerated every cycle)
+2026-11-07 02:32:26,027 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-11-07 02:32:26,142 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (60 cmds)
+2026-11-07 02:32:26,142 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram menu: 60 commands registered, 48 hidden (over 60 limit). Use /commands for full list.
+2026-11-07 02:32:26,247 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=204804->199520 rss_anon_kib=175852->170568 threads=17 duration_ms=2.3
+2026-11-07 02:32:26,470 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-11-07 02:32:26,472 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-11-07 02:32:26,474 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-11-07 02:32:26,536 INFO hermes_cli.plugins: Plugin 'default' registered delegation provider: default
+2026-11-07 02:32:26,539 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-11-07 02:32:26,541 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-11-07 02:32:26,543 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-11-07 02:32:26,544 INFO hermes_cli.plugins: Plugin 'meta-ai-image-gen' registered image_gen provider: meta-ai
+2026-11-07 02:32:26,546 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-11-07 02:32:26,547 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-11-07 02:32:26,549 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-11-07 02:32:26,549 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-11-07 02:32:26,551 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-11-07 02:32:26,576 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-11-07 02:32:26,577 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-11-07 02:32:26,579 INFO hermes_cli.plugins: Plugin 'openrouter' registered video_gen provider: openrouter
+2026-11-07 02:32:26,580 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-11-07 02:32:26,583 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-11-07 02:32:26,585 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-11-07 02:32:26,587 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-11-07 02:32:26,589 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-11-07 02:32:26,591 INFO hermes_cli.plugins: Plugin 'web-keenable' registered web provider: keenable
+2026-11-07 02:32:26,593 INFO hermes_cli.plugins: Plugin 'web-openai-native' registered web provider: openai-native
+2026-11-07 02:32:26,595 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-11-07 02:32:26,596 INFO hermes_cli.plugins: Plugin 'web-perplexity' registered web provider: perplexity
+2026-11-07 02:32:26,598 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-11-07 02:32:26,600 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-11-07 02:32:26,602 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-11-07 02:32:26,602 INFO hermes_cli.plugins: Plugin discovery complete: 63 found, 59 enabled
+2026-11-07 02:32:31,013 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-11-07 02:32:40,915 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:45118
+2026-11-07 02:32:41,463 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 02:32:41,464 INFO tools.registry: check_fn _a2a_tools_available returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:41,465 INFO tools.registry: check_fn check_discord_tool_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:41,466 INFO tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:41,676 INFO tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:41,702 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 02:32:41,709 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 02:32:41,710 INFO tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:41,711 INFO tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:41,712 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 02:32:41,713 INFO tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:42,768 INFO run_agent: Loaded environment variables from /root/.hermes/.env
+2026-11-07 02:32:43,144 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-11-07 02:32:43,146 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-11-07 02:32:43,148 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-11-07 02:32:43,219 INFO hermes_cli.plugins: Plugin 'default' registered delegation provider: default
+2026-11-07 02:32:43,225 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-11-07 02:32:43,226 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-11-07 02:32:43,228 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-11-07 02:32:43,229 INFO hermes_cli.plugins: Plugin 'meta-ai-image-gen' registered image_gen provider: meta-ai
+2026-11-07 02:32:43,231 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-11-07 02:32:43,232 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-11-07 02:32:43,234 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-11-07 02:32:43,234 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-11-07 02:32:43,237 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-11-07 02:32:43,269 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-11-07 02:32:43,271 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-11-07 02:32:43,274 INFO hermes_cli.plugins: Plugin 'openrouter' registered video_gen provider: openrouter
+2026-11-07 02:32:43,275 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-11-07 02:32:43,277 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-11-07 02:32:43,280 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-11-07 02:32:43,281 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-11-07 02:32:43,284 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-11-07 02:32:43,288 INFO hermes_cli.plugins: Plugin 'web-keenable' registered web provider: keenable
+2026-11-07 02:32:43,290 INFO hermes_cli.plugins: Plugin 'web-openai-native' registered web provider: openai-native
+2026-11-07 02:32:43,292 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-11-07 02:32:43,294 INFO hermes_cli.plugins: Plugin 'web-perplexity' registered web provider: perplexity
+2026-11-07 02:32:43,296 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-11-07 02:32:43,300 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-11-07 02:32:43,302 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-11-07 02:32:43,303 INFO hermes_cli.plugins: Plugin discovery complete: 63 found, 59 enabled
+2026-11-07 02:32:51,903 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (12 chars)
+2026-11-07 02:32:51,947 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Iya saya mau' reply_to_id=None reply_to_text=''
+2026-11-07 02:32:52,693 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_1:123403010062016 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:32:52,696 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:52,697 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:52,703 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:52,705 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:32:52,718 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 02:32:52,730 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 02:32:54,668 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=26 msg='Iya saya mau'
+2026-11-07 02:32:54,788 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-18 (<lambda>):123402738841280 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:33:18,751 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=33110 out=1634 total=34744 latency=24.0s cache=25600/33110 (77%) id=gen-1794018775-mZrONbkNnucQks0rdecF
+2026-11-07 02:33:18,813 INFO tools.terminal_tool: Creating new local environment for task session:...
+2026-11-07 02:33:18,964 INFO tools.environments.base: Session snapshot created (session=4504e3abae44, cwd=/root)
+2026-11-07 02:33:18,964 INFO tools.terminal_tool: local environment ready for task session:
+2026-11-07 02:33:20,798 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (2.00s, 140 chars)
+2026-11-07 02:33:25,775 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #2: model=upstage/solar-mini4:free provider=nous in=34801 out=158 total=34959 latency=5.0s cache=9600/34801 (28%) id=gen-1794018801-MrPNtou5sO3eeA7cC3F9
+2026-11-07 02:33:25,868 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.09s, 124 chars)
+2026-11-07 02:33:26,258 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=337312->319616 rss_anon_kib=297244->279548 threads=30 duration_ms=1.7
+2026-11-07 02:33:57,847 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #3: model=upstage/solar-mini4:free provider=nous in=35018 out=2931 total=37949 latency=32.0s cache=11200/35018 (32%) id=gen-1794018806-M4sKgeYCVcYgGsoxhnwU
+2026-11-07 02:34:03,295 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (5.44s, 517 chars)
+2026-11-07 02:34:26,283 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=323984->320680 rss_anon_kib=283916->280612 threads=30 duration_ms=0.8
+2026-11-07 02:34:32,083 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #4: model=upstage/solar-mini4:free provider=nous in=38202 out=2365 total=40567 latency=28.8s cache=11200/38202 (29%) id=gen-1794018843-hAl1NzjyZDlCbs5hJYjt
+2026-11-07 02:34:32,146 INFO agent.tool_executor: tool write_file completed (0.05s, 233 chars)
+2026-11-07 02:34:32,199 INFO agent.tool_executor: tool write_file completed (0.11s, 234 chars)
+2026-11-07 02:34:32,202 INFO agent.tool_executor: tool write_file completed (0.11s, 237 chars)
+2026-11-07 02:34:32,209 INFO agent.tool_executor: tool write_file completed (0.11s, 270 chars)
+2026-11-07 02:34:32,252 INFO agent.lsp.install: [install] npm install --prefix /root/.hermes/lsp --silent --no-fund --no-audit bash-language-server
+2026-11-07 02:34:36,507 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #5: model=upstage/solar-mini4:free provider=nous in=40902 out=99 total=41001 latency=4.1s cache=11200/40902 (27%) id=gen-1794018872-ETzElxfHilPtGuC9Zq2D
+2026-11-07 02:34:38,709 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool terminal returned error (2.08s): {"output": "Gagal balik ke /workspaces/bravoAI", "exit_code": 1, "error": null}
+2026-11-07 02:34:41,800 WARNING agent.lsp.servers: bash-language-server: shellcheck not found on PATH — diagnostics will be empty until shellcheck is installed (apt: shellcheck, brew: shellcheck, scoop: shellcheck).
+2026-11-07 02:34:41,814 INFO agent.lsp.install: [install] npm install --prefix /root/.hermes/lsp --silent --no-fund --no-audit yaml-language-server
+2026-11-07 02:34:43,806 INFO hermes.lint.lsp: lsp[yaml-language-server] active for /workspaces/bravoAI
+2026-11-07 02:34:43,949 INFO hermes.lint.lsp: lsp[bash-language-server] active for /workspaces/bravoAI
+2026-11-07 02:34:48,951 WARNING hermes.lint.lsp: lsp[bash-language-server] fresh diagnostics timed out for /workspaces/bravoAI/restore.sh
+2026-11-07 02:34:49,040 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #6: model=upstage/solar-mini4:free provider=nous in=41043 out=835 total=41878 latency=10.3s cache=9600/41043 (23%) id=gen-1794018879-JmnY7XvhEeyWbhkE98Bt
+2026-11-07 02:34:49,130 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.08s, 187 chars)
+2026-11-07 02:35:17,344 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #7: model=upstage/solar-mini4:free provider=nous in=41991 out=1080 total=43071 latency=28.2s cache=6400/41991 (15%) id=gen-1794018889-MaYzqZhphyTs745We2s9
+2026-11-07 02:35:17,444 INFO [20261107_015613_3f28979f] agent.tool_executor: tool patch completed (0.09s, 597 chars)
+2026-11-07 02:35:22,888 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #8: model=upstage/solar-mini4:free provider=nous in=43296 out=256 total=43552 latency=5.4s cache=33600/43296 (78%) id=gen-1794018918-eXxyNBuqdj006WughFpS
+2026-11-07 02:35:23,722 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool terminal returned error (0.83s): {"output": "Gagal balik ke /workspaces/bravoAI", "exit_code": 1, "error": null}
+2026-11-07 02:35:25,376 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #9: model=upstage/solar-mini4:free provider=nous in=43594 out=60 total=43654 latency=1.6s cache=36800/43594 (84%) id=gen-1794018924-yqsbMqXewh4L7yMKIqHA
+2026-11-07 02:35:26,206 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.82s, 459 chars)
+2026-11-07 02:35:26,310 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=328536->322916 rss_anon_kib=288452->282832 threads=32 duration_ms=1.0
+2026-11-07 02:35:36,739 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #10: model=upstage/solar-mini4:free provider=nous in=43844 out=376 total=44220 latency=10.5s cache=8000/43844 (18%) id=gen-1794018926-SqfyRMB1wn2LoBRTpkIZ
+2026-11-07 02:35:36,832 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.09s, 94 chars)
+2026-11-07 02:35:54,177 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #11: model=upstage/solar-mini4:free provider=nous in=44268 out=1076 total=45344 latency=17.3s cache=11200/44268 (25%) id=gen-1794018937-j479gPgjyoqlSfx0KaKU
+2026-11-07 02:35:54,268 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.09s, 408 chars)
+2026-11-07 02:36:07,461 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #12: model=upstage/solar-mini4:free provider=nous in=45600 out=932 total=46532 latency=13.2s cache=11200/45600 (25%) id=gen-1794018954-RRJcwFLGYn0PiYDvha0X
+2026-11-07 02:36:07,476 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool write_file returned error (0.01s): {"error": "Refusing to overwrite /workspaces/bravoAI/backup.sh: Your patch changed this file without a full view of its current content. Read the current file in full before a whole-file overwrite, or
+2026-11-07 02:36:13,670 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #13: model=upstage/solar-mini4:free provider=nous in=46683 out=482 total=47165 latency=6.2s cache=38400/46683 (82%) id=gen-1794018967-5HQ5o7ogkl6RcBQelImO
+2026-11-07 02:36:13,685 INFO [20261107_015613_3f28979f] agent.tool_executor: tool read_file completed (0.01s, 1001 chars)
+2026-11-07 02:36:24,934 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #14: model=upstage/solar-mini4:free provider=nous in=47559 out=378 total=47937 latency=11.2s cache=8000/47559 (17%) id=gen-1794018973-F188XddPmSXbG20Sm04d
+2026-11-07 02:36:25,032 INFO [20261107_015613_3f28979f] agent.tool_executor: tool patch completed (0.09s, 1032 chars)
+2026-11-07 02:36:26,336 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=329504->323320 rss_anon_kib=289420->283236 threads=32 duration_ms=0.9
+2026-11-07 02:36:29,717 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #15: model=upstage/solar-mini4:free provider=nous in=48323 out=97 total=48420 latency=4.7s cache=9600/48323 (20%) id=gen-1794018986-OHoC4XMt7jrMZ8SnasPj
+2026-11-07 02:36:30,552 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.83s, 367 chars)
+2026-11-07 02:36:39,431 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #16: model=upstage/solar-mini4:free provider=nous in=48589 out=652 total=49241 latency=8.9s cache=46400/48589 (95%) id=gen-1794018991-gSuFiOufHa1P8sgCZiPX
+2026-11-07 02:36:39,456 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 02:36:39,456 INFO agent.auxiliary_client: Auxiliary approval: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 02:37:00,863 INFO hermes_plugins.platforms__telegram.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8547329604 (choice=once, user=Hasan)
+2026-11-07 02:37:00,978 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (21.54s, 448 chars)
+2026-11-07 02:37:08,928 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #17: model=upstage/solar-mini4:free provider=nous in=49448 out=628 total=50076 latency=7.9s cache=9600/49448 (19%) id=gen-1794019021-3lUdFhIbeoQDy6qxTeza
+2026-11-07 02:37:08,942 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool write_file returned error (0.01s): {"error": "Refusing to overwrite /workspaces/bravoAI/restore.sh: /workspaces/bravoAI/restore.sh exists but this task has not seen its full current content (never read, patched without a prior full rea
+2026-11-07 02:37:11,162 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #18: model=upstage/solar-mini4:free provider=nous in=50272 out=38 total=50310 latency=2.2s cache=46400/50272 (92%) id=gen-1794019029-6cQ71KFCTbq8XiAWY9JN
+2026-11-07 02:37:11,176 INFO [20261107_015613_3f28979f] agent.tool_executor: tool read_file completed (0.01s, 1372 chars)
+2026-11-07 02:37:23,029 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #19: model=upstage/solar-mini4:free provider=nous in=50831 out=367 total=51198 latency=11.8s cache=9600/50831 (19%) id=gen-1794019032-KBS9li275Lgb4YKhhvIM
+2026-11-07 02:37:23,447 INFO [20261107_015613_3f28979f] agent.tool_executor: tool patch completed (0.09s, 1043 chars)
+2026-11-07 02:37:26,357 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=334744->329504 rss_anon_kib=294660->289420 threads=32 duration_ms=1.1
+2026-11-07 02:37:35,220 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #20: model=upstage/solar-mini4:free provider=nous in=51594 out=194 total=51788 latency=11.8s cache=11200/51594 (22%) id=gen-1794019044-ixc7PWVK7a3EX4CuXKwe
+2026-11-07 02:37:38,076 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (2.85s, 712 chars)
+2026-11-07 02:37:40,565 INFO tui_gateway.server: Reclaimed 1 orphaned active-session lease(s)
+2026-11-07 02:37:45,010 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #21: model=upstage/solar-mini4:free provider=nous in=51989 out=490 total=52479 latency=6.9s cache=41600/51989 (80%) id=gen-1794019059-uzjg7BpeashDsRlJ5LUE
+2026-11-07 02:37:45,100 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.08s, 749 chars)
+2026-11-07 02:37:57,120 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #22: model=upstage/solar-mini4:free provider=nous in=52715 out=850 total=53565 latency=12.0s cache=48000/52715 (91%) id=gen-1794019066-0wzHyRc0Q8rQOovHqyde
+2026-11-07 02:37:57,136 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=22/150 budget=22/150 tool_turns=29 last_msg_role=assistant response_len=1675 session=20261107_015613_3f28979f
+2026-11-07 02:37:57,144 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=bg-review:123402861110976 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:37:57,146 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:37:57,147 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:37:57,162 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:37:57,164 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:37:57,173 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 02:37:57,184 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=305.2s api_calls=22 response=1675 chars
+2026-11-07 02:37:57,186 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 02:37:57,204 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=73 msg='Review the conversation above and update the skill library. Be ACTIVE — most ses...' origin=background_review
+2026-11-07 02:37:57,232 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-62 (<lambda>):123402738841280 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:37:57,365 INFO gateway.platforms.base: [Telegram] Sending response (1675 chars) to 8547329604
+2026-11-07 02:38:11,225 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=55576 out=348 total=55924 latency=14.0s cache=41600/55576 (75%) id=gen-1794019077-iiQoPU5iqn1XjKTNfstx
+2026-11-07 02:38:11,273 INFO [20261107_015613_3f28979f] agent.tool_executor: tool skills_list completed (0.05s, 5358 chars)
+2026-11-07 02:38:26,385 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=337872->331104 rss_anon_kib=297612->290844 threads=33 duration_ms=1.3
+2026-11-07 02:38:51,135 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #2: model=upstage/solar-mini4:free provider=nous in=57278 out=3256 total=60534 latency=39.9s cache=11200/57278 (20%) id=gen-1794019091-fCUYKl5qvylRK1sQpG7v
+2026-11-07 02:38:51,146 INFO [20261107_015613_3f28979f] agent.tool_executor: tool write_file completed (0.01s, 279 chars)
+2026-11-07 02:39:14,788 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #3: model=upstage/solar-mini4:free provider=nous in=60631 out=1320 total=61951 latency=23.6s cache=51200/60631 (84%) id=gen-1794019131-FFDOSORmiWmD8GCadnOg
+2026-11-07 02:39:14,798 INFO [20261107_015613_3f28979f] agent.tool_executor: tool write_file completed (0.01s, 339 chars)
+2026-11-07 02:39:19,498 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #4: model=upstage/solar-mini4:free provider=nous in=62060 out=254 total=62314 latency=4.7s cache=11200/62060 (18%) id=gen-1794019155-8e4rwNAtphXcz5csYD0Z
+2026-11-07 02:39:19,509 INFO [20261107_015613_3f28979f] agent.tool_executor: tool patch completed (0.01s, 830 chars)
+2026-11-07 02:39:25,126 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #5: model=upstage/solar-mini4:free provider=nous in=62556 out=33 total=62589 latency=5.6s cache=9600/62556 (15%) id=gen-1794019161-Z8GrTe5DBHhZ2IkUsJyN
+2026-11-07 02:39:25,163 INFO [20261107_015613_3f28979f] agent.tool_executor: tool skill_view completed (0.03s, 3831 chars)
+2026-11-07 02:39:26,407 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=340196->333040 rss_anon_kib=299936->292780 threads=31 duration_ms=1.3
+2026-11-07 02:39:28,324 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #6: model=upstage/solar-mini4:free provider=nous in=63556 out=44 total=63600 latency=3.1s cache=46400/63556 (73%) id=gen-1794019166-1v4YgRhksGWOuZZcRxwp
+2026-11-07 02:39:28,388 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.06s, 179 chars)
+2026-11-07 02:39:33,163 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #7: model=upstage/solar-mini4:free provider=nous in=63663 out=46 total=63709 latency=4.8s cache=43200/63663 (68%) id=gen-1794019168-w24CSqelQYlbLngf01Nd
+2026-11-07 02:39:33,202 INFO [20261107_015613_3f28979f] agent.tool_executor: tool skill_view completed (0.04s, 4353 chars)
+2026-11-07 02:39:33,208 INFO [20261107_015613_3f28979f] agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 02:39:42,106 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #8: model=upstage/solar-mini4:free provider=nous in=65078 out=781 total=65859 latency=8.9s cache=49600/65078 (76%) id=gen-1794019173-nQupSeruC5EvOdXGqZex
+2026-11-07 02:39:42,111 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=8/16 budget=8/16 tool_turns=36 last_msg_role=assistant response_len=1938 session=20261107_015613_3f28979f origin=background_review
+2026-11-07 02:39:42,115 INFO [20261107_015613_3f28979f] run_agent: Shared OpenAI client retired (cache_evict, tcp_shutdown=0, fd_release=deferred_to_gc) thread=bg-review:123402861110976 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:39:42,115 INFO [20261107_015613_3f28979f] run_agent: OpenAI client closed (cache_evict, shared=False, tcp_force_closed=0) thread=bg-review:123402861110976 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:39:42,115 INFO [20261107_015613_3f28979f] agent.background_review: Background review complete: thread=bg-review calls=8 in=226398 out=6082 cache_read=264000 result=none
+2026-11-07 02:40:26,430 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=337528->330604 rss_anon_kib=297268->290344 threads=29 duration_ms=1.3
+2026-11-07 02:41:26,456 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=332092->330812 rss_anon_kib=291832->290552 threads=29 duration_ms=0.5
+2026-11-07 02:42:26,478 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=332400->331252 rss_anon_kib=292140->290992 threads=29 duration_ms=0.6
+2026-11-07 02:43:26,501 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=332756->331592 rss_anon_kib=292496->291332 threads=29 duration_ms=0.6
+2026-11-07 02:44:26,523 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=332860->330884 rss_anon_kib=292600->290624 threads=29 duration_ms=0.8
+2026-11-07 02:45:18,888 INFO tools.terminal_tool: Cleaned up inactive environment for task: session:agent:main:telegram:dm:8547329604
+2026-11-07 02:45:26,757 INFO hermes_cli.mem_trim: idle full collection: reason=messaging gateway housekeeping quiet_s=344 unreachable=1712 duration_ms=213.7
+2026-11-07 02:45:26,760 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping after idle collection malloc_trim=1 collected=False rss_kib=332304->330116 rss_anon_kib=292044->289856 threads=29 duration_ms=1.5
+2026-11-07 02:45:32,551 INFO hermes.lint.lsp: lsp[reaper] reaped 1 idle client(s) after 600s: yaml-language-server (/workspaces/bravoAI)
+2026-11-07 02:46:22,825 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (93 chars)
+2026-11-07 02:46:22,855 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='github...iTJ3' reply_to_id=None reply_to_text=''
+2026-11-07 02:46:23,215 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=73 msg='github...iTJ3...'
+2026-11-07 02:46:23,266 INFO [20261107_015613_3f28979f] run_agent: Session 20261107_015613_3f28979f: skills changed (+1/-0) since the system prompt was built; delivering the change as a turn note (prefix cache preserved).
+2026-11-07 02:46:26,787 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=338860->333296 rss_anon_kib=298600->293036 threads=32 duration_ms=1.1
+2026-11-07 02:46:37,452 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #23: model=upstage/solar-mini4:free provider=nous in=53679 out=1050 total=54729 latency=14.2s cache=51200/53679 (95%) id=gen-1794019584-6ZSbsfW0Jm3gZrmoxwVq
+2026-11-07 02:46:37,466 INFO tools.terminal_tool: Creating new local environment for task session:...
+2026-11-07 02:46:37,538 INFO tools.environments.base: Session snapshot created (session=2e628d076538, cwd=/root)
+2026-11-07 02:46:37,538 INFO tools.terminal_tool: local environment ready for task session:
+2026-11-07 02:46:37,632 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.17s, 273 chars)
+2026-11-07 02:46:40,510 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #24: model=upstage/solar-mini4:free provider=nous in=54833 out=132 total=54965 latency=2.9s cache=43200/54833 (79%) id=gen-1794019597-YGFWsU0J7eKwoohaabVq
+2026-11-07 02:46:42,147 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool terminal returned error (1.63s): {"output": "=== git add -A ===\n=== staged files ===\n.github/workflows/backup-every-30days.yml\n.gitignore\nbackup.sh\nrestore.sh\n=== commit ===\n[main bf29122] feat: add 30-day backup automation (b
+2026-11-07 02:47:10,763 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #25: model=upstage/solar-mini4:free provider=nous in=55186 out=1737 total=56923 latency=28.6s cache=52800/55186 (96%) id=gen-1794019603-8G16at0IbMLygBJrL2g2
+2026-11-07 02:47:16,018 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (5.25s, 752 chars)
+2026-11-07 02:47:26,809 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=338640->335000 rss_anon_kib=298380->294740 threads=34 duration_ms=0.7
+2026-11-07 02:47:32,622 INFO hermes.lint.lsp: lsp[reaper] reaped 1 idle client(s) after 600s: bash-language-server (/workspaces/bravoAI)
+2026-11-07 02:47:40,572 INFO tui_gateway.server: Reclaimed 1 orphaned active-session lease(s)
+2026-11-07 02:47:43,129 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #26: model=upstage/solar-mini4:free provider=nous in=57258 out=3202 total=60460 latency=27.1s cache=48000/57258 (84%) id=gen-1794019637-N12IhbVQRsfw8Ql9NTVl
+2026-11-07 02:47:43,452 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool terminal returned error (0.32s): {"output": "=== backup repo created? ===\nHTTP 401\n{\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}\n=== git defaul
+2026-11-07 02:48:05,774 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #27: model=upstage/solar-mini4:free provider=nous in=60581 out=1706 total=62287 latency=22.3s cache=51200/60581 (85%) id=gen-1794019665-fl4ttZYo7cHMT0TGGRsz
+2026-11-07 02:48:05,820 INFO agent.auxiliary_client: Auxiliary approval: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 02:48:07,863 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (2.08s, 1029 chars)
+2026-11-07 02:48:25,112 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #28: model=upstage/solar-mini4:free provider=nous in=62693 out=1730 total=64423 latency=17.2s cache=33600/62693 (54%) id=gen-1794019688-MXVgUuqwYu91ZwDU0rgK
+2026-11-07 02:48:25,957 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.84s, 343 chars)
+2026-11-07 02:48:25,999 INFO [20261107_015613_3f28979f] agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 02:48:26,832 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=342480->334988 rss_anon_kib=302220->294728 threads=34 duration_ms=1.3
+2026-11-07 02:48:57,472 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #29: model=upstage/solar-mini4:free provider=nous in=64552 out=2259 total=66811 latency=31.5s cache=43200/64552 (67%) id=gen-1794019707-XcXMHIvHr3iNoEBTaAXm
+2026-11-07 02:48:57,514 INFO agent.tool_executor: tool write_file completed (0.03s, 247 chars)
+2026-11-07 02:48:57,518 INFO agent.tool_executor: tool write_file completed (0.03s, 248 chars)
+2026-11-07 02:48:57,521 INFO agent.tool_executor: tool write_file completed (0.03s, 272 chars)
+2026-11-07 02:49:02,561 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #30: model=upstage/solar-mini4:free provider=nous in=67074 out=305 total=67379 latency=5.0s cache=54400/67074 (81%) id=gen-1794019738-QepTz6HiiyJdhY6CN6lQ
+2026-11-07 02:49:02,586 INFO agent.auxiliary_client: Auxiliary approval: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 02:49:06,098 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool terminal returned error (3.53s): {"output": "Initialized empty Git repository in /workspaces/bravoai-backup/.git/\n[main (root-commit) 4b6f743] chore: add 30-day backup automation + setup\n 3 files changed, 91 insertions(+)\n create 
+2026-11-07 02:49:26,854 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=339612->335688 rss_anon_kib=299352->295428 threads=34 duration_ms=0.9
+2026-11-07 02:49:49,780 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #31: model=upstage/solar-mini4:free provider=nous in=67606 out=2448 total=70054 latency=43.7s cache=9600/67606 (14%) id=gen-1794019747-b1QpK3YRVa9yqfOoyeSv
+2026-11-07 02:49:51,227 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (1.44s, 416 chars)
+2026-11-07 02:50:07,471 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #32: model=upstage/solar-mini4:free provider=nous in=70247 out=1404 total=71651 latency=16.2s cache=43200/70247 (61%) id=gen-1794019791-m69pD7wO1gzjZE6qQEny
+2026-11-07 02:50:08,116 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.64s, 328 chars)
+2026-11-07 02:50:26,878 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=337884->333132 rss_anon_kib=297624->292872 threads=34 duration_ms=1.0
+2026-11-07 02:50:27,107 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #33: model=upstage/solar-mini4:free provider=nous in=71761 out=1960 total=73721 latency=19.0s cache=70400/71761 (98%) id=gen-1794019808-u4ovaEf5ROpxqT4BOuB5
+2026-11-07 02:50:27,121 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=11/150 budget=11/150 tool_turns=39 last_msg_role=assistant response_len=2151 session=20261107_015613_3f28979f
+2026-11-07 02:50:27,174 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=244.3s api_calls=11 response=2151 chars
+2026-11-07 02:50:27,338 INFO gateway.platforms.base: [Telegram] Sending response (2151 chars) to 8547329604
+2026-11-07 02:51:26,906 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=336860->332660 rss_anon_kib=296600->292400 threads=28 duration_ms=1.0
+2026-11-07 02:52:26,927 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=334368->333176 rss_anon_kib=294108->292916 threads=28 duration_ms=0.6
+2026-11-07 02:53:26,951 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=338288->336160 rss_anon_kib=298028->295900 threads=28 duration_ms=1.1
+2026-11-07 02:54:19,514 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (40 chars)
+2026-11-07 02:54:19,543 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='ghp_Zl...O4DL' reply_to_id=None reply_to_text=''
+2026-11-07 02:54:20,022 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=97 msg='ghp_Zl...O4DL'
+2026-11-07 02:54:26,973 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=345508->338188 rss_anon_kib=305248->297928 threads=31 duration_ms=1.5
+2026-11-07 02:54:40,147 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #34: model=upstage/solar-mini4:free provider=nous in=73757 out=1906 total=75663 latency=20.1s cache=72000/73757 (98%) id=gen-1794020060-C1dUnCJVwDJcMQLFsUFc
+2026-11-07 02:54:43,006 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (2.85s, 214 chars)
+2026-11-07 02:55:12,485 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #35: model=upstage/solar-mini4:free provider=nous in=75756 out=2232 total=77988 latency=29.5s cache=64000/75756 (84%) id=gen-1794020083-d7MF0wkpxPS5stotU1g1
+2026-11-07 02:55:12,585 INFO [20261107_015613_3f28979f] agent.tool_executor: tool write_file completed (0.09s, 258 chars)
+2026-11-07 02:55:12,827 INFO hermes.lint.lsp: lsp[yaml-language-server] active for /workspaces/bravoAI
+2026-11-07 02:55:16,964 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #36: model=upstage/solar-mini4:free provider=nous in=78085 out=172 total=78257 latency=4.4s cache=11200/78085 (14%) id=gen-1794020112-xi6ggAcdHDgceuhys7Of
+2026-11-07 02:55:20,206 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (3.24s, 440 chars)
+2026-11-07 02:55:27,003 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351308->338596 rss_anon_kib=311048->298336 threads=33 duration_ms=1.8
+2026-11-07 02:55:35,960 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #37: model=upstage/solar-mini4:free provider=nous in=78422 out=1107 total=79529 latency=15.7s cache=76800/78422 (98%) id=gen-1794020121-MGhd3bRDjlRMtUaC8TGC
+2026-11-07 02:55:36,056 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.09s, 881 chars)
+2026-11-07 02:55:54,633 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #38: model=upstage/solar-mini4:free provider=nous in=79835 out=1079 total=80914 latency=18.6s cache=11200/79835 (14%) id=gen-1794020136-FnzvkhgeKRlGitUJ4GSv
+2026-11-07 02:55:54,648 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=5/150 budget=5/150 tool_turns=43 last_msg_role=assistant response_len=1807 session=20261107_015613_3f28979f
+2026-11-07 02:55:54,656 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=bg-review:123402639922880 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:55:54,658 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:55:54,659 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 02:55:54,667 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:55:54,668 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 02:55:54,678 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 02:55:54,687 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=95.1s api_calls=5 response=1807 chars
+2026-11-07 02:55:54,694 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 02:55:54,709 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=107 msg='Review the conversation above and update the skill library. Be ACTIVE — most ses...' origin=background_review
+2026-11-07 02:55:54,810 INFO [20261107_015613_3f28979f] agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 02:55:54,821 INFO gateway.platforms.base: [Telegram] Sending response (1807 chars) to 8547329604
+2026-11-07 02:55:54,823 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-114 (<lambda>):123402694788800 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:56:06,587 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=82925 out=1102 total=84027 latency=11.8s cache=9600/82925 (12%) id=gen-1794020155-jPetZKE87VdrjPdsqwKb
+2026-11-07 02:56:06,622 INFO [20261107_015613_3f28979f] agent.tool_executor: tool skill_view completed (0.03s, 3831 chars)
+2026-11-07 02:56:18,740 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #2: model=upstage/solar-mini4:free provider=nous in=84994 out=579 total=85573 latency=12.1s cache=51200/84994 (60%) id=gen-1794020168-oWccvO28iw6s0o5GOnGc
+2026-11-07 02:56:18,773 INFO [20261107_015613_3f28979f] agent.tool_executor: tool skill_view completed (0.03s, 4353 chars)
+2026-11-07 02:56:27,030 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=347364->340456 rss_anon_kib=307104->300196 threads=32 duration_ms=1.3
+2026-11-07 02:56:57,656 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #3: model=upstage/solar-mini4:free provider=nous in=86942 out=3767 total=90709 latency=38.9s cache=84800/86942 (98%) id=gen-1794020179-HiNLeFIuklUn0edqTmWq
+2026-11-07 02:56:57,668 INFO [20261107_015613_3f28979f] agent.tool_executor: tool patch completed (0.01s, 1072 chars)
+2026-11-07 02:57:07,164 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #4: model=upstage/solar-mini4:free provider=nous in=91022 out=666 total=91688 latency=9.5s cache=78400/91022 (86%) id=gen-1794020217-uEE4Zm2CKF0JUpdcPyoN
+2026-11-07 02:57:07,183 INFO [20261107_015613_3f28979f] agent.tool_executor: tool patch completed (0.02s, 1551 chars)
+2026-11-07 02:57:12,260 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #5: model=upstage/solar-mini4:free provider=nous in=92115 out=88 total=92203 latency=5.1s cache=75200/92115 (82%) id=gen-1794020228-8DdgePk1vMRY6hDQC8fN
+2026-11-07 02:57:12,267 INFO [20261107_015613_3f28979f] agent.tool_executor: tool read_file completed (0.00s, 4153 chars)
+2026-11-07 02:57:27,053 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=347808->336920 rss_anon_kib=307548->296660 threads=31 duration_ms=1.7
+2026-11-07 02:57:49,723 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #6: model=upstage/solar-mini4:free provider=nous in=93412 out=2523 total=95935 latency=37.4s cache=91200/93412 (98%) id=gen-1794020232-Ym2p9Kg9f9EGGytRVjEn
+2026-11-07 02:57:49,745 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool patch returned error (0.02s): {"success": false, "error": "Could not find a match for old_string in the file\n\nDid you mean one of these sections?\n  83| ```\n  84| \n  85| ## 3. GitHub Actions — monthly snapshot\n  86| \n  87| `
+2026-11-07 02:57:55,100 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #7: model=upstage/solar-mini4:free provider=nous in=96714 out=277 total=96991 latency=5.3s cache=83200/96714 (86%) id=gen-1794020270-1hrAI5EdblrJovFDBgxD
+2026-11-07 02:57:55,108 INFO [20261107_015613_3f28979f] agent.tool_executor: tool read_file completed (0.01s, 4813 chars)
+2026-11-07 02:58:11,517 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #8: model=upstage/solar-mini4:free provider=nous in=98831 out=1094 total=99925 latency=16.4s cache=76800/98831 (78%) id=gen-1794020275-N8L0mbC8oOYg9vH7Dzoo
+2026-11-07 02:58:11,530 INFO [20261107_015613_3f28979f] agent.tool_executor: tool patch completed (0.01s, 1486 chars)
+2026-11-07 02:58:13,560 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #9: model=upstage/solar-mini4:free provider=nous in=100346 out=78 total=100424 latency=2.0s cache=94400/100346 (94%) id=gen-1794020291-BzR6DGBMTXi352Ldy6sN
+2026-11-07 02:58:13,565 INFO [20261107_015613_3f28979f] agent.tool_executor: tool read_file completed (0.00s, 683 chars)
+2026-11-07 02:58:27,077 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351716->336364 rss_anon_kib=311456->296104 threads=31 duration_ms=2.3
+2026-11-07 02:58:33,505 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #10: model=upstage/solar-mini4:free provider=nous in=100662 out=1428 total=102090 latency=19.9s cache=9600/100662 (10%) id=gen-1794020295-HIv8gD8i9iqk49melLa7
+2026-11-07 02:58:33,509 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=10/16 budget=10/16 tool_turns=52 last_msg_role=assistant response_len=1567 session=20261107_015613_3f28979f origin=background_review
+2026-11-07 02:58:33,512 INFO [20261107_015613_3f28979f] run_agent: Shared OpenAI client retired (cache_evict, tcp_shutdown=0, fd_release=deferred_to_gc) thread=bg-review:123402639922880 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:58:33,512 INFO [20261107_015613_3f28979f] run_agent: OpenAI client closed (cache_evict, shared=False, tcp_force_closed=0) thread=bg-review:123402639922880 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 02:58:33,513 INFO [20261107_015613_3f28979f] agent.background_review: Background review complete: thread=bg-review calls=10 in=273563 out=11602 cache_read=654400 result=none
+2026-11-07 02:59:27,099 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=337908->336384 rss_anon_kib=297648->296124 threads=29 duration_ms=0.7
+2026-11-07 03:00:27,122 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=337944->336656 rss_anon_kib=297684->296396 threads=29 duration_ms=0.7
+2026-11-07 03:01:27,149 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=338052->336944 rss_anon_kib=297792->296684 threads=29 duration_ms=0.4
+2026-11-07 03:02:27,171 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=338376->335228 rss_anon_kib=298116->294968 threads=29 duration_ms=1.3
+2026-11-07 03:03:19,004 INFO tools.terminal_tool: Cleaned up inactive environment for task: session:agent:main:telegram:dm:8547329604
+2026-11-07 03:03:27,197 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=336204->335236 rss_anon_kib=295944->294976 threads=29 duration_ms=0.7
+2026-11-07 03:04:27,421 INFO hermes_cli.mem_trim: idle full collection: reason=messaging gateway housekeeping quiet_s=353 unreachable=2639 duration_ms=202.6
+2026-11-07 03:04:27,423 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping after idle collection malloc_trim=1 collected=False rss_kib=336152->334816 rss_anon_kib=295892->294556 threads=29 duration_ms=0.9
+2026-11-07 03:05:27,445 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=336092->334908 rss_anon_kib=295832->294648 threads=29 duration_ms=0.7
+2026-11-07 03:05:33,343 INFO hermes.lint.lsp: lsp[reaper] reaped 1 idle client(s) after 600s: yaml-language-server (/workspaces/bravoAI)
+2026-11-07 03:05:34,859 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (57 chars)
+2026-11-07 03:05:34,887 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Sekarang bagaimana cara saya mengatasi auto stop 30 menit' reply_to_id=None reply_to_text=''
+2026-11-07 03:05:36,113 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_1:123403010062016 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 03:05:36,115 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 03:05:36,115 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 03:05:36,122 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 03:05:36,124 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 03:05:36,134 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 03:05:36,143 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 03:05:36,155 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=107 msg='Sekarang bagaimana cara saya mengatasi auto stop 30 menit'
+2026-11-07 03:05:36,260 INFO [20261107_015613_3f28979f] agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 03:05:36,268 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-126 (<lambda>):123402968106688 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 03:06:15,593 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=80938 out=2835 total=83773 latency=39.3s cache=78400/80938 (97%) id=gen-1794020737-tJ5JGdNQjsZu5YGjYrjd
+2026-11-07 03:06:15,612 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=1/150 budget=1/150 tool_turns=43 last_msg_role=assistant response_len=2137 session=20261107_015613_3f28979f
+2026-11-07 03:06:15,668 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=40.8s api_calls=1 response=2137 chars
+2026-11-07 03:06:15,724 INFO gateway.platforms.base: [Telegram] Sending response (2137 chars) to 8547329604
+2026-11-07 03:06:27,472 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=342844->337340 rss_anon_kib=302584->297080 threads=30 duration_ms=1.0
+2026-11-07 03:07:27,494 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=338784->337716 rss_anon_kib=298524->297456 threads=28 duration_ms=0.6
+2026-11-07 03:08:27,516 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=339072->338096 rss_anon_kib=298812->297836 threads=28 duration_ms=0.6
+2026-11-07 03:09:27,540 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=339380->337356 rss_anon_kib=299120->297096 threads=28 duration_ms=1.1
+2026-11-07 03:10:27,561 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=338428->337340 rss_anon_kib=298168->297080 threads=28 duration_ms=0.8
+2026-11-07 03:11:27,791 INFO hermes_cli.mem_trim: idle full collection: reason=messaging gateway housekeeping quiet_s=311 unreachable=1393 duration_ms=202.8
+2026-11-07 03:11:27,793 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping after idle collection malloc_trim=1 collected=False rss_kib=338608->335932 rss_anon_kib=298348->295672 threads=28 duration_ms=0.9
+2026-11-07 03:12:27,815 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=337192->336028 rss_anon_kib=296932->295768 threads=28 duration_ms=0.7
+2026-11-07 03:13:27,837 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=340860->336288 rss_anon_kib=300600->296028 threads=28 duration_ms=1.1
+2026-11-07 03:14:27,860 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=337424->336368 rss_anon_kib=297164->296108 threads=28 duration_ms=0.8
+2026-11-07 03:15:27,890 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=337692->336632 rss_anon_kib=297432->296372 threads=28 duration_ms=0.7
+2026-11-07 03:16:27,917 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=338040->336872 rss_anon_kib=297780->296612 threads=28 duration_ms=0.5
+2026-11-07 03:17:16,936 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (38 chars)
+2026-11-07 03:17:16,966 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Rekomendasi repositori yang bermanfaat' reply_to_id=None reply_to_text=''
+2026-11-07 03:17:17,328 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=109 msg='Rekomendasi repositori yang bermanfaat'
+2026-11-07 03:17:27,940 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344184->338064 rss_anon_kib=303924->297804 threads=31 duration_ms=1.3
+2026-11-07 03:17:40,018 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #2: model=upstage/solar-mini4:free provider=nous in=83795 out=2453 total=86248 latency=22.7s cache=76800/83795 (92%) id=gen-1794021437-6QdhXSKF5hNyEtEl0kb8
+2026-11-07 03:17:40,041 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=1/150 budget=1/150 tool_turns=43 last_msg_role=assistant response_len=2015 session=20261107_015613_3f28979f
+2026-11-07 03:17:40,048 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=bg-review:123402619254464 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 03:17:40,051 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 03:17:40,052 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 03:17:40,059 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 03:17:40,061 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 03:17:40,071 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 03:17:40,075 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=23.1s api_calls=1 response=2015 chars
+2026-11-07 03:17:40,088 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 03:17:40,103 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=111 msg='Review the conversation above and consider saving to memory if appropriate.  Mem...' origin=background_review
+2026-11-07 03:17:40,129 INFO gateway.platforms.base: [Telegram] Sending response (2015 chars) to 8547329604
+2026-11-07 03:17:40,148 INFO [20261107_015613_3f28979f] agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 03:17:40,159 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-129 (<lambda>):123402861110976 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 03:18:27,965 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344576->339072 rss_anon_kib=304316->298812 threads=31 duration_ms=1.2
+2026-11-07 03:18:51,812 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=86602 out=4549 total=91151 latency=71.7s cache=9600/86602 (11%) id=gen-1794021460-oaXi9PsWHtJJcNFTKY6z
+2026-11-07 03:18:51,828 INFO [20261107_015613_3f28979f] agent.tool_executor: tool memory completed (0.01s, 209 chars)
+2026-11-07 03:18:51,836 INFO [20261107_015613_3f28979f] agent.tool_executor: tool memory completed (0.01s, 206 chars)
+2026-11-07 03:18:57,192 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #2: model=upstage/solar-mini4:free provider=nous in=91310 out=198 total=91508 latency=5.3s cache=75200/91310 (82%) id=gen-1794021533-p4w8NTLVG0Veeh49RP3J
+2026-11-07 03:18:57,195 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=2/16 budget=2/16 tool_turns=44 last_msg_role=assistant response_len=578 session=20261107_015613_3f28979f origin=background_review
+2026-11-07 03:18:57,200 INFO [20261107_015613_3f28979f] run_agent: Shared OpenAI client retired (cache_evict, tcp_shutdown=0, fd_release=deferred_to_gc) thread=bg-review:123402619254464 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 03:18:57,200 INFO [20261107_015613_3f28979f] run_agent: OpenAI client closed (cache_evict, shared=False, tcp_force_closed=0) thread=bg-review:123402619254464 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 03:18:57,201 INFO [20261107_015613_3f28979f] agent.background_review: Background review complete: thread=bg-review calls=2 in=93112 out=4747 cache_read=84800 result=memory
+2026-11-07 03:19:27,989 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=347084->340360 rss_anon_kib=306824->300100 threads=28 duration_ms=1.4
+2026-11-07 03:20:28,011 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=342020->340660 rss_anon_kib=301760->300400 threads=28 duration_ms=0.8
+2026-11-07 03:21:28,038 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=342312->340924 rss_anon_kib=302052->300664 threads=28 duration_ms=0.6
+2026-11-07 03:22:28,059 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=342424->339816 rss_anon_kib=302164->299556 threads=28 duration_ms=1.1
+2026-11-07 03:23:28,081 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=341028->339880 rss_anon_kib=300768->299620 threads=28 duration_ms=0.8
+2026-11-07 03:24:28,328 INFO hermes_cli.mem_trim: idle full collection: reason=messaging gateway housekeeping quiet_s=330 unreachable=1702 duration_ms=223.5
+2026-11-07 03:24:28,332 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping after idle collection malloc_trim=1 collected=False rss_kib=341020->338632 rss_anon_kib=300760->298372 threads=28 duration_ms=1.2
+2026-11-07 03:25:28,367 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=339712->338660 rss_anon_kib=299452->298400 threads=28 duration_ms=0.9
+2026-11-07 03:25:30,029 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (74 chars)
+2026-11-07 03:25:30,058 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Ya buatkan saya list lengkap agar saya bisa berfikir membuat ide repo saya' reply_to_id=None reply_to_text=''
+2026-11-07 03:25:30,433 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=111 msg='Ya buatkan saya list lengkap agar saya bisa berfikir membuat ide repo saya'
+2026-11-07 03:25:57,792 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #3: model=upstage/solar-mini4:free provider=nous in=86275 out=2713 total=88988 latency=27.3s cache=8000/86275 (9%) id=gen-1794021931-a6tjbbwdOVUPLqMFL67J
+2026-11-07 03:25:57,817 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=1/150 budget=1/150 tool_turns=43 last_msg_role=assistant response_len=7303 session=20261107_015613_3f28979f
+2026-11-07 03:25:57,856 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=27.8s api_calls=1 response=7303 chars
+2026-11-07 03:25:57,892 INFO gateway.platforms.base: [Telegram] Sending response (7303 chars) to 8547329604
+2026-11-07 03:26:28,399 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=349412->342700 rss_anon_kib=309152->302440 threads=29 duration_ms=1.2
+2026-11-07 03:27:28,421 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344428->343260 rss_anon_kib=304168->303000 threads=28 duration_ms=0.9
+2026-11-07 03:28:28,446 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344580->343592 rss_anon_kib=304320->303332 threads=28 duration_ms=0.8
+2026-11-07 03:29:28,471 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344688->343088 rss_anon_kib=304428->302828 threads=28 duration_ms=1.0
+2026-11-07 03:30:28,493 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344208->343024 rss_anon_kib=303948->302764 threads=28 duration_ms=0.8
+2026-11-07 03:31:28,846 INFO hermes_cli.mem_trim: idle full collection: reason=messaging gateway housekeeping quiet_s=330 unreachable=750 duration_ms=207.4
+2026-11-07 03:31:28,849 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping after idle collection malloc_trim=1 collected=False rss_kib=345332->342000 rss_anon_kib=305072->301740 threads=28 duration_ms=1.2
+2026-11-07 03:32:28,871 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=342888->342068 rss_anon_kib=302628->301808 threads=28 duration_ms=1.0
+2026-11-07 03:33:28,894 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=345116->343516 rss_anon_kib=304856->303256 threads=28 duration_ms=1.1
+2026-11-07 03:34:28,917 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344412->343552 rss_anon_kib=304152->303292 threads=28 duration_ms=0.9
+2026-11-07 03:35:28,939 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344616->343708 rss_anon_kib=304356->303448 threads=28 duration_ms=0.8
+2026-11-07 03:36:28,966 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344880->344036 rss_anon_kib=304620->303776 threads=28 duration_ms=0.6
+2026-11-07 03:37:28,988 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344908->343724 rss_anon_kib=304648->303464 threads=28 duration_ms=1.1
+2026-11-07 03:38:29,015 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344600->343768 rss_anon_kib=304340->303508 threads=28 duration_ms=0.9
+2026-11-07 03:39:29,038 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344772->343876 rss_anon_kib=304512->303616 threads=28 duration_ms=0.9
+2026-11-07 03:40:29,061 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=344976->344180 rss_anon_kib=304716->303920 threads=28 duration_ms=0.8
+2026-11-07 03:41:10,083 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (105 chars)
+2026-11-07 03:41:10,115 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Untuk saya yang baru mengenal github apa rekomendasi repo ya agar bermanfaat bag' reply_to_id=None reply_to_text=''
+2026-11-07 03:41:11,001 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_1:123403010062016 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 03:41:11,003 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 03:41:11,004 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 03:41:11,014 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 03:41:11,016 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 03:41:11,030 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 03:41:11,039 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 03:41:11,052 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=113 msg='Untuk saya yang baru mengenal github apa rekomendasi repo ya agar bermanfaat bag...'
+2026-11-07 03:41:11,087 INFO [20261107_015613_3f28979f] agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 03:41:11,096 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-136 (<lambda>):123402861110976 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 03:41:29,090 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=352604->345224 rss_anon_kib=312344->304964 threads=31 duration_ms=2.8
+2026-11-07 03:41:36,346 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=89024 out=3088 total=92112 latency=25.3s cache=86400/89024 (97%) id=gen-1794022871-zsg1siE9Spr2Y4Col00k
+2026-11-07 03:41:36,363 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=1/150 budget=1/150 tool_turns=43 last_msg_role=assistant response_len=3835 session=20261107_015613_3f28979f
+2026-11-07 03:41:36,403 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=26.3s api_calls=1 response=3835 chars
+2026-11-07 03:41:36,441 INFO gateway.platforms.base: [Telegram] Sending response (3835 chars) to 8547329604
+2026-11-07 03:42:29,116 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=346704->345200 rss_anon_kib=306444->304940 threads=29 duration_ms=0.9
+2026-11-07 03:43:29,147 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=346280->345408 rss_anon_kib=306020->305148 threads=28 duration_ms=0.7
+2026-11-07 03:43:51,321 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (22 chars)
+2026-11-07 03:43:51,360 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Bikin repo yang begini' reply_to_id=None reply_to_text=''
+2026-11-07 03:43:51,402 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=115 msg='Bikin repo yang begini'
+2026-11-07 03:44:02,085 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #2: model=upstage/solar-mini4:free provider=nous in=92130 out=722 total=92852 latency=10.6s cache=9600/92130 (10%) id=gen-1794023032-VN9LgBHHkwC152QHOG1v
+2026-11-07 03:44:02,100 INFO tools.terminal_tool: Creating new local environment for task session:...
+2026-11-07 03:44:02,171 INFO tools.environments.base: Session snapshot created (session=221f1b136e77, cwd=/root)
+2026-11-07 03:44:02,172 INFO tools.terminal_tool: local environment ready for task session:
+2026-11-07 03:44:02,238 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 03:44:02,238 INFO agent.auxiliary_client: Auxiliary approval: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 03:44:10,477 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (8.38s, 285 chars)
+2026-11-07 03:44:24,410 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #3: model=upstage/solar-mini4:free provider=nous in=92957 out=1110 total=94067 latency=13.9s cache=11200/92957 (12%) id=gen-1794023051-5UJM03oYIFBuNZrRuPyj
+2026-11-07 03:44:24,519 INFO agent.auxiliary_client: Auxiliary approval: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 03:44:25,518 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool terminal returned error (1.10s): {"output": "== write files ==\n/usr/bin/bash: line 170: scripts/note.sh: No such file or directory\nchmod: cannot access 'scripts/note.sh': No such file or directory\n== tree ==\ntotal 16\ndrwxrwxrwx+
+2026-11-07 03:44:29,172 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=356332->346428 rss_anon_kib=316072->306168 threads=34 duration_ms=2.2
+2026-11-07 03:44:37,690 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #4: model=upstage/solar-mini4:free provider=nous in=94316 out=661 total=94977 latency=12.1s cache=92800/94316 (98%) id=gen-1794023065-3gEONCJV7cUe6FrEkLrh
+2026-11-07 03:44:37,762 INFO agent.auxiliary_client: Auxiliary approval: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 03:44:40,506 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (2.81s, 611 chars)
+2026-11-07 03:44:48,529 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #5: model=upstage/solar-mini4:free provider=nous in=95288 out=289 total=95577 latency=8.0s cache=8000/95288 (8%) id=gen-1794023082-gEBUpTY9KsDZadta1I7H
+2026-11-07 03:44:50,374 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (1.84s, 1287 chars)
+2026-11-07 03:44:53,073 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #6: model=upstage/solar-mini4:free provider=nous in=95990 out=137 total=96127 latency=2.7s cache=92800/95990 (97%) id=gen-1794023090-ke0qrRiADlpbz5iBgDqg
+2026-11-07 03:44:53,183 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool terminal returned error (0.10s): {"output": "=== test note.sh add ===\nscripts/note.sh: line 19: today: unbound variable\n=== test note.sh list ===\n=== Catatan ===\n[2026-11-07] Belajar GitHub dari nol: buat repo first-setup\n=== te
+2026-11-07 03:45:01,931 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #7: model=upstage/solar-mini4:free provider=nous in=96241 out=523 total=96764 latency=8.7s cache=96000/96241 (100%) id=gen-1794023093-hwR1jjVvVQcWqmdQlyS1
+2026-11-07 03:45:02,029 INFO [20261107_015613_3f28979f] agent.tool_executor: tool patch completed (0.09s, 614 chars)
+2026-11-07 03:45:02,225 INFO hermes.lint.lsp: lsp[bash-language-server] active for /workspaces/my-setup
+2026-11-07 03:45:07,970 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #8: model=upstage/solar-mini4:free provider=nous in=96993 out=157 total=97150 latency=5.9s cache=9600/96993 (10%) id=gen-1794023103-vD61BCZqzIe0H4eZjVqA
+2026-11-07 03:45:09,617 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (1.64s, 617 chars)
+2026-11-07 03:45:18,762 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #9: model=upstage/solar-mini4:free provider=nous in=97378 out=579 total=97957 latency=9.1s cache=96000/97378 (99%) id=gen-1794023111-JZIPjgF93REgTCFSiCad
+2026-11-07 03:45:18,843 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.08s, 451 chars)
+2026-11-07 03:45:22,516 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #10: model=upstage/solar-mini4:free provider=nous in=98136 out=106 total=98242 latency=3.6s cache=97600/98136 (99%) id=gen-1794023120-DCOTfuqxTyYCbkxf0S5x
+2026-11-07 03:45:22,615 INFO [20261107_015613_3f28979f] agent.tool_executor: tool patch completed (0.09s, 576 chars)
+2026-11-07 03:45:28,021 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #11: model=upstage/solar-mini4:free provider=nous in=98452 out=137 total=98589 latency=5.4s cache=8000/98452 (8%) id=gen-1794023123-6oT2bvnyytED56jbyVyi
+2026-11-07 03:45:29,196 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=361288->347276 rss_anon_kib=321028->307016 threads=36 duration_ms=2.3
+2026-11-07 03:45:29,866 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (1.84s, 799 chars)
+2026-11-07 03:45:35,721 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #12: model=upstage/solar-mini4:free provider=nous in=98892 out=359 total=99251 latency=5.8s cache=97600/98892 (99%) id=gen-1794023130-XYCXFiRA03g7UokVENWm
+2026-11-07 03:45:35,763 INFO agent.auxiliary_client: Auxiliary approval: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 03:45:39,140 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (3.41s, 659 chars)
+2026-11-07 03:45:48,351 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #13: model=upstage/solar-mini4:free provider=nous in=99445 out=674 total=100119 latency=9.2s cache=9600/99445 (10%) id=gen-1794023139-nM10xJvJMKzCHlJzJSSM
+2026-11-07 03:45:48,372 INFO [20261107_015613_3f28979f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=upstage/solar-mini4:free api_calls=12/150 budget=12/150 tool_turns=54 last_msg_role=assistant response_len=1450 session=20261107_015613_3f28979f
+2026-11-07 03:45:48,389 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=117.0s api_calls=12 response=1450 chars
+2026-11-07 03:45:48,447 INFO gateway.platforms.base: [Telegram] Sending response (1450 chars) to 8547329604
+2026-11-07 03:46:29,223 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350924->345584 rss_anon_kib=310664->305324 threads=30 duration_ms=1.5
+2026-11-07 03:47:29,245 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=346700->345664 rss_anon_kib=306440->305404 threads=29 duration_ms=0.7
+2026-11-07 03:48:29,269 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=347020->345960 rss_anon_kib=306760->305700 threads=29 duration_ms=0.8
+2026-11-07 03:49:29,291 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=347256->346348 rss_anon_kib=306996->306088 threads=29 duration_ms=0.8
+2026-11-07 03:50:29,315 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=347276->346032 rss_anon_kib=307016->305772 threads=29 duration_ms=1.1
+2026-11-07 03:51:19,491 INFO tools.terminal_tool: Cleaned up inactive environment for task: session:agent:main:telegram:dm:8547329604
+2026-11-07 03:51:29,554 INFO hermes_cli.mem_trim: idle full collection: reason=messaging gateway housekeeping quiet_s=340 unreachable=1902 duration_ms=214.2
+2026-11-07 03:51:29,556 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping after idle collection malloc_trim=1 collected=False rss_kib=347020->345496 rss_anon_kib=306760->305236 threads=29 duration_ms=0.9
+2026-11-07 03:52:29,578 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=346564->345604 rss_anon_kib=306304->305344 threads=30 duration_ms=1.1
+2026-11-07 03:53:29,602 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351168->349672 rss_anon_kib=310908->309412 threads=29 duration_ms=1.2
+2026-11-07 03:54:29,625 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350628->349696 rss_anon_kib=310368->309436 threads=29 duration_ms=1.0
+2026-11-07 03:55:29,648 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350700->349836 rss_anon_kib=310440->309576 threads=29 duration_ms=0.8
+2026-11-07 03:55:35,547 INFO hermes.lint.lsp: lsp[reaper] reaped 1 idle client(s) after 600s: bash-language-server (/workspaces/my-setup)
+2026-11-07 03:56:29,674 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350932->350144 rss_anon_kib=310672->309884 threads=28 duration_ms=0.5
+2026-11-07 03:57:29,696 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351084->349868 rss_anon_kib=310824->309608 threads=28 duration_ms=1.1
+2026-11-07 03:58:29,724 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350672->349904 rss_anon_kib=310412->309644 threads=28 duration_ms=0.9
+2026-11-07 03:59:29,748 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350868->349980 rss_anon_kib=310608->309720 threads=28 duration_ms=1.0
+2026-11-07 04:00:29,774 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351116->350256 rss_anon_kib=310856->309996 threads=28 duration_ms=0.8
+2026-11-07 04:01:29,803 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351204->349972 rss_anon_kib=310944->309712 threads=28 duration_ms=0.8
+2026-11-07 04:02:29,824 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350792->349996 rss_anon_kib=310532->309736 threads=28 duration_ms=0.9
+2026-11-07 04:03:29,847 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350944->350060 rss_anon_kib=310684->309800 threads=28 duration_ms=0.9
+2026-11-07 04:04:29,869 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350836->350188 rss_anon_kib=310576->309928 threads=28 duration_ms=0.8
+2026-11-07 04:05:29,892 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351216->349908 rss_anon_kib=310956->309648 threads=28 duration_ms=1.0
+2026-11-07 04:06:29,926 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350748->349924 rss_anon_kib=310488->309664 threads=28 duration_ms=0.7
+2026-11-07 04:07:29,948 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350860->349984 rss_anon_kib=310600->309724 threads=28 duration_ms=0.8
+2026-11-07 04:08:29,970 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350904->350184 rss_anon_kib=310644->309924 threads=28 duration_ms=0.8
+2026-11-07 04:09:29,993 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351432->349952 rss_anon_kib=311172->309692 threads=28 duration_ms=1.1
+2026-11-07 04:10:30,016 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350760->349940 rss_anon_kib=310500->309680 threads=28 duration_ms=1.1
+2026-11-07 04:11:30,044 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350964->349980 rss_anon_kib=310704->309720 threads=28 duration_ms=0.8
+2026-11-07 04:12:30,074 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350976->350080 rss_anon_kib=310716->309820 threads=28 duration_ms=1.0
+2026-11-07 04:12:52,044 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,045 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,053 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,056 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,910 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 04:12:52,923 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 04:12:52,924 INFO tools.registry: check_fn _a2a_tools_available returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,926 INFO tools.registry: check_fn check_discord_tool_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,927 INFO tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,927 INFO tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,949 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 04:12:52,954 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 04:12:52,954 INFO tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,955 INFO tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:52,956 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 04:12:52,957 INFO tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:12:53,729 INFO tui_gateway.ws: ws closed peer=127.0.0.1:45118 reason=client_disconnect(code=1005,reason=) messages=9 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-11-07 04:13:30,098 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=354892->349160 rss_anon_kib=314620->308888 threads=29 duration_ms=1.9
+2026-11-07 04:14:30,126 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350076->349168 rss_anon_kib=309804->308896 threads=29 duration_ms=1.0
+2026-11-07 04:15:30,152 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350264->349240 rss_anon_kib=309992->308968 threads=29 duration_ms=1.0
+2026-11-07 04:16:11,328 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:36540
+2026-11-07 04:16:11,367 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,368 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,376 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,378 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,388 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 04:16:11,397 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 04:16:11,398 INFO tools.registry: check_fn _a2a_tools_available returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,399 INFO tools.registry: check_fn check_discord_tool_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,399 INFO tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,400 INFO tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,424 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 04:16:11,430 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 04:16:11,430 INFO tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,431 INFO tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,432 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 04:16:11,433 INFO tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:16:11,630 INFO run_agent: Loaded environment variables from /root/.hermes/.env
+2026-11-07 04:16:12,252 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-11-07 04:16:12,260 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-11-07 04:16:12,266 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-11-07 04:16:12,369 INFO hermes_cli.plugins: Plugin 'default' registered delegation provider: default
+2026-11-07 04:16:12,376 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-11-07 04:16:12,378 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-11-07 04:16:12,382 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-11-07 04:16:12,386 INFO hermes_cli.plugins: Plugin 'meta-ai-image-gen' registered image_gen provider: meta-ai
+2026-11-07 04:16:12,389 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-11-07 04:16:12,392 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-11-07 04:16:12,395 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-11-07 04:16:12,395 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-11-07 04:16:12,398 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-11-07 04:16:12,458 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-11-07 04:16:12,465 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-11-07 04:16:12,473 INFO hermes_cli.plugins: Plugin 'openrouter' registered video_gen provider: openrouter
+2026-11-07 04:16:12,479 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-11-07 04:16:12,485 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-11-07 04:16:12,496 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-11-07 04:16:12,500 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-11-07 04:16:12,502 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-11-07 04:16:12,504 INFO hermes_cli.plugins: Plugin 'web-keenable' registered web provider: keenable
+2026-11-07 04:16:12,506 INFO hermes_cli.plugins: Plugin 'web-openai-native' registered web provider: openai-native
+2026-11-07 04:16:12,510 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-11-07 04:16:12,514 INFO hermes_cli.plugins: Plugin 'web-perplexity' registered web provider: perplexity
+2026-11-07 04:16:12,517 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-11-07 04:16:12,521 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-11-07 04:16:12,527 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-11-07 04:16:12,528 INFO hermes_cli.plugins: Plugin discovery complete: 63 found, 59 enabled
+2026-11-07 04:16:30,194 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351608->349496 rss_anon_kib=311336->309224 threads=29 duration_ms=1.0
+2026-11-07 04:17:30,217 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350740->349696 rss_anon_kib=310468->309424 threads=29 duration_ms=1.3
+2026-11-07 04:18:30,245 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350756->349732 rss_anon_kib=310484->309460 threads=29 duration_ms=1.1
+2026-11-07 04:19:30,268 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350768->348556 rss_anon_kib=310496->308284 threads=29 duration_ms=1.2
+2026-11-07 04:20:30,290 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=349640->348532 rss_anon_kib=309368->308260 threads=30 duration_ms=0.9
+2026-11-07 04:20:32,103 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,104 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,113 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,115 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,128 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 04:20:32,137 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 04:20:32,137 INFO tools.registry: check_fn _a2a_tools_available returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,138 INFO tools.registry: check_fn check_discord_tool_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,139 INFO tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,139 INFO tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,160 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 04:20:32,165 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 04:20:32,166 INFO tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,167 INFO tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,168 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 04:20:32,168 INFO tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:20:32,753 INFO tui_gateway.ws: ws closed peer=127.0.0.1:36540 reason=client_disconnect(code=1005,reason=) messages=8 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-11-07 04:21:19,303 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:32990
+2026-11-07 04:21:19,338 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,339 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,348 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,350 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,366 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 04:21:19,379 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 04:21:19,380 INFO tools.registry: check_fn _a2a_tools_available returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,381 INFO tools.registry: check_fn check_discord_tool_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,382 INFO tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,382 INFO tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,410 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 04:21:19,417 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 04:21:19,418 INFO tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,418 INFO tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,419 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-11-07 04:21:19,420 INFO tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:21:19,573 INFO run_agent: Loaded environment variables from /root/.hermes/.env
+2026-11-07 04:21:20,146 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-11-07 04:21:20,151 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-11-07 04:21:20,157 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-11-07 04:21:20,251 INFO hermes_cli.plugins: Plugin 'default' registered delegation provider: default
+2026-11-07 04:21:20,257 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-11-07 04:21:20,259 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-11-07 04:21:20,263 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-11-07 04:21:20,265 INFO hermes_cli.plugins: Plugin 'meta-ai-image-gen' registered image_gen provider: meta-ai
+2026-11-07 04:21:20,268 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-11-07 04:21:20,272 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-11-07 04:21:20,275 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-11-07 04:21:20,276 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-11-07 04:21:20,279 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-11-07 04:21:20,317 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-11-07 04:21:20,319 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-11-07 04:21:20,322 INFO hermes_cli.plugins: Plugin 'openrouter' registered video_gen provider: openrouter
+2026-11-07 04:21:20,325 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-11-07 04:21:20,330 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-11-07 04:21:20,335 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-11-07 04:21:20,338 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-11-07 04:21:20,341 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-11-07 04:21:20,343 INFO hermes_cli.plugins: Plugin 'web-keenable' registered web provider: keenable
+2026-11-07 04:21:20,345 INFO hermes_cli.plugins: Plugin 'web-openai-native' registered web provider: openai-native
+2026-11-07 04:21:20,347 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-11-07 04:21:20,348 INFO hermes_cli.plugins: Plugin 'web-perplexity' registered web provider: perplexity
+2026-11-07 04:21:20,350 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-11-07 04:21:20,352 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-11-07 04:21:20,354 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-11-07 04:21:20,355 INFO hermes_cli.plugins: Plugin discovery complete: 63 found, 59 enabled
+2026-11-07 04:21:30,325 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=352512->349656 rss_anon_kib=312240->309384 threads=29 duration_ms=1.1
+2026-11-07 04:22:30,347 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350776->349764 rss_anon_kib=310504->309492 threads=29 duration_ms=1.0
+2026-11-07 04:23:30,370 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350728->349848 rss_anon_kib=310456->309576 threads=29 duration_ms=0.8
+2026-11-07 04:24:30,392 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351112->350096 rss_anon_kib=310840->309824 threads=29 duration_ms=0.7
+2026-11-07 04:25:30,420 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=351224->349404 rss_anon_kib=310952->309132 threads=30 duration_ms=1.0
+2026-11-07 04:26:30,447 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350384->349316 rss_anon_kib=310112->309044 threads=29 duration_ms=0.8
+2026-11-07 04:27:30,469 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=350372->349396 rss_anon_kib=310100->309124 threads=29 duration_ms=0.9
+2026-11-07 04:28:10,711 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (48 chars)
+2026-11-07 04:28:10,742 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Backup Hermes agen di dalam root codespaces saya' reply_to_id=None reply_to_text=''
+2026-11-07 04:28:11,078 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_13:123403010062016 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 04:28:11,079 INFO tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:28:11,080 INFO tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-11-07 04:28:11,087 INFO tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:28:11,089 INFO tools.registry: check_fn check_image_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-11-07 04:28:11,099 INFO agent.auxiliary_client: Vision auto-detect: using main provider nous (google/gemini-3.6-flash)
+2026-11-07 04:28:11,108 INFO tools.tool_search: tool_search activated (tier 1): 18 core/visible tools kept, 5 deferred (~3989 tokens), listing full (budget ~4000 tokens)
+2026-11-07 04:28:11,124 INFO [20261107_015613_3f28979f] agent.turn_context: conversation turn: session=20261107_015613_3f28979f model=upstage/solar-mini4:free provider=nous platform=telegram history=139 msg='Backup Hermes agen di dalam root codespaces saya'
+2026-11-07 04:28:11,202 INFO [20261107_015613_3f28979f] agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 04:28:11,216 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-169 (<lambda>):123402968106688 provider=nous base_url=https://inference-api.nousresearch.com/v1 model=upstage/solar-mini4:free
+2026-11-07 04:28:17,518 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #1: model=upstage/solar-mini4:free provider=nous in=100137 out=366 total=100503 latency=6.3s cache=9600/100137 (10%) id=gen-1794025691-eTlYWh4PbO4tpF9njFw1
+2026-11-07 04:28:17,531 INFO tools.terminal_tool: Creating new local environment for task session:...
+2026-11-07 04:28:17,603 INFO tools.environments.base: Session snapshot created (session=ac35c2af3967, cwd=/root)
+2026-11-07 04:28:17,604 INFO tools.terminal_tool: local environment ready for task session:
+2026-11-07 04:28:25,041 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (7.51s, 4561 chars)
+2026-11-07 04:28:30,493 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=359932->350628 rss_anon_kib=319660->310356 threads=35 duration_ms=1.8
+2026-11-07 04:28:58,439 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #2: model=upstage/solar-mini4:free provider=nous in=102569 out=2799 total=105368 latency=33.4s cache=9600/102569 (9%) id=gen-1794025705-jQg93psGawV5IZKByLSv
+2026-11-07 04:28:58,629 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.18s, 2126 chars)
+2026-11-07 04:29:21,931 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #3: model=upstage/solar-mini4:free provider=nous in=106225 out=2273 total=108498 latency=23.3s cache=9600/106225 (9%) id=gen-1794025738-jKV7gArVPinau1GfY47Z
+2026-11-07 04:29:22,030 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (0.09s, 4248 chars)
+2026-11-07 04:29:30,516 INFO hermes_cli.mem_trim: memory trim: reason=messaging gateway housekeeping malloc_trim=1 collected=False rss_kib=359768->349384 rss_anon_kib=319496->309112 threads=35 duration_ms=2.0
+2026-11-07 04:29:34,853 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #4: model=upstage/solar-mini4:free provider=nous in=110004 out=990 total=110994 latency=12.8s cache=99200/110004 (90%) id=gen-1794025763-m22X7lGZrhETF3Xnd14G
+2026-11-07 04:29:34,946 WARNING [20261107_015613_3f28979f] agent.tool_executor: Tool terminal returned error (0.09s): {"output": "== create GitHub repo hermes-backup ==\n/usr/bin/bash: eval: line 19: unexpected EOF while looking for matching `''", "exit_code": 2, "error": null, "cwd": "/workspaces/bravoAI"}
+2026-11-07 04:29:39,726 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #5: model=upstage/solar-mini4:free provider=nous in=111065 out=206 total=111271 latency=4.8s cache=11200/111065 (10%) id=gen-1794025775-b9A5AHURnLKitS5Pp1oA
+2026-11-07 04:29:39,758 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider nous (upstage/solar-mini4:free)
+2026-11-07 04:29:39,758 INFO agent.auxiliary_client: Auxiliary approval: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 04:29:46,508 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (6.78s, 250 chars)
+2026-11-07 04:30:02,005 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #6: model=upstage/solar-mini4:free provider=nous in=111357 out=1837 total=113194 latency=15.5s cache=105600/111357 (95%) id=gen-1794025786-xMElho05XYluc5hAicEq
+2026-11-07 04:30:02,060 INFO agent.auxiliary_client: Auxiliary approval: using nous (upstage/solar-mini4:free) at https://inference-api.nousresearch.com/v1/
+2026-11-07 04:30:03,596 INFO [20261107_015613_3f28979f] agent.tool_executor: tool terminal completed (1.58s, 1213 chars)
+2026-11-07 04:30:19,398 INFO [20261107_015613_3f28979f] agent.conversation_loop: API call #7: model=upstage/solar-mini4:free provider=nous in=113565 out=1334 total=114899 latency=15.8s cache=110400/113565 (97%) id=gen-1794025803-BlmEx3R6kZMp09l8u9xH

@@ -1,0 +1,126 @@
+2026-11-07 01:54:13,111 INFO gateway.control_socket: Gateway control socket listening at /root/.hermes/gateway.sock
+2026-11-07 01:54:13,463 INFO gateway.run: Starting Hermes Gateway...
+2026-11-07 01:54:13,471 INFO gateway.run: Session storage: /root/.hermes/sessions
+2026-11-07 01:54:13,480 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, else the HERMES_MAX_ITERATIONS bridge)
+2026-11-07 01:54:13,480 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-11-07 01:54:13,555 INFO gateway.platform_registry: Platform 'Telegram' dependencies missing — attempting install...
+2026-11-07 01:54:30,454 INFO gateway.run: Connecting to telegram...
+2026-11-07 01:54:30,465 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-11-07 01:54:30,678 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-11-07 01:54:30,679 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-11-07 01:54:30,695 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-11-07 01:54:31,994 INFO gateway.run: Model context warmed: upstage/solar-mini4:free -> 524288 tokens (detected)
+2026-11-07 01:54:31,995 INFO gateway.run: Turn machinery warmed in 1.5s (21 tool schema(s) materialized)
+2026-11-07 01:54:34,707 INFO plugins.platforms.telegram.telegram_network: [Telegram] Using sticky IPv4 Telegram API path 149.154.166.110 (dual-stack hostname tried last — #87015)
+2026-11-07 01:54:34,869 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Cold boot: dropping Telegram updates queued while offline (platforms.telegram.extra.drop_pending_on_cold_boot: true)
+2026-11-07 01:54:45,546 INFO plugins.platforms.telegram.telegram_network: [Telegram] Using sticky IPv4 Telegram API path 149.154.166.110 (dual-stack hostname tried last — #87015)
+2026-11-07 01:54:45,547 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram polling confirmed healthy: getUpdates progressing (generation 1)
+2026-11-07 01:54:45,550 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-11-07 01:54:45,568 INFO gateway.run: ✓ telegram connected
+2026-11-07 01:54:45,913 INFO gateway.run: Gateway running with 1 platform(s)
+2026-11-07 01:54:45,930 INFO gateway.run: Channel directory built: 0 target(s)
+2026-11-07 01:54:46,618 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (60 cmds)
+2026-11-07 01:54:46,961 INFO gateway.run: Press Ctrl+C to stop
+2026-11-07 01:54:46,963 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/root/.hermes/kanban/.dispatcher.lock)
+2026-11-07 01:54:46,964 INFO gateway.run: kanban dispatcher: kanban.max_in_progress unset; using memory-derived default max_in_progress=8 (set kanban.max_in_progress in config.yaml to override)
+2026-11-07 01:54:46,971 INFO gateway.run: Cron scheduler will tick 1 profile(s): ['default']
+2026-11-07 01:54:46,984 INFO gateway.run: Auto-started gateway: exits after 600s with no clients, adapters, cron/kanban work or admissions (gateway.unmanaged_idle_exit_seconds)
+2026-11-07 01:54:46,986 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (60 cmds)
+2026-11-07 01:54:46,995 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-11-07 01:54:48,255 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (60 cmds)
+2026-11-07 01:54:48,255 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram menu: 60 commands registered, 48 hidden (over 60 limit). Use /commands for full list.
+2026-11-07 01:54:51,965 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-11-07 01:56:13,894 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8547329604 → 1 (session_reset)
+2026-11-07 01:56:17,181 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (3 chars)
+2026-11-07 01:56:17,231 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Hay' reply_to_id=None reply_to_text=''
+2026-11-07 01:56:30,445 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=13.2s api_calls=1 response=34 chars
+2026-11-07 01:56:30,481 INFO gateway.platforms.base: [Telegram] Sending response (34 chars) to 8547329604
+2026-11-07 01:57:04,581 INFO gateway.run: inbound message: platform=local user=uid:0 chat=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d msg='apa yang bisa kamu lakukan?' reply_to_id=None reply_to_text=''
+2026-11-07 01:57:12,664 INFO gateway.run: response ready: platform=local chat=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d session=agent:main:local:dm:local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d time=8.1s api_calls=1 response=974 chars
+2026-11-07 01:57:12,697 INFO gateway.platforms.base: [Local] Sending response (974 chars) to local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d
+2026-11-07 01:57:53,930 INFO gateway.run: inbound message: platform=local user=uid:0 chat=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d msg='cek kinerja vps saya' reply_to_id=None reply_to_text=''
+2026-11-07 01:58:11,449 INFO gateway.run: response ready: platform=local chat=local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d session=agent:main:local:dm:local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d time=17.5s api_calls=2 response=1159 chars
+2026-11-07 01:58:11,508 INFO gateway.platforms.base: [Local] Sending response (1159 chars) to local-adf84e21ac283e4511abfab22145303a77d1ac99c9ca5d1357d32d19122e498d
+2026-11-07 01:59:50,532 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (20 chars)
+2026-11-07 01:59:50,566 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Cek kinerja vps saya' reply_to_id=None reply_to_text=''
+2026-11-07 02:00:37,752 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=47.2s api_calls=4 response=1355 chars
+2026-11-07 02:00:37,801 INFO gateway.platforms.base: [Telegram] Sending response (1355 chars) to 8547329604
+2026-11-07 02:04:59,285 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (38 chars)
+2026-11-07 02:04:59,324 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Apakah disini saya bisa deploy website' reply_to_id=None reply_to_text=''
+2026-11-07 02:05:22,978 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=23.7s api_calls=2 response=2228 chars
+2026-11-07 02:05:23,018 INFO gateway.platforms.base: [Telegram] Sending response (2228 chars) to 8547329604
+2026-11-07 02:13:48,837 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (130 chars)
+2026-11-07 02:13:48,877 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Baik saya ingin bertanya karena saya berjalan di workspace development jadi kapa' reply_to_id=None reply_to_text=''
+2026-11-07 02:14:44,804 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=55.9s api_calls=5 response=2310 chars
+2026-11-07 02:14:44,859 INFO gateway.platforms.base: [Telegram] Sending response (2310 chars) to 8547329604
+2026-11-07 02:26:46,813 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (121 chars)
+2026-11-07 02:26:46,856 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Bagaimana saya membackup file yg ada di codespaces agar setiap 30 hari saya tida' reply_to_id=None reply_to_text=''
+2026-11-07 02:27:18,102 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=31.2s api_calls=1 response=2679 chars
+2026-11-07 02:27:18,156 INFO gateway.platforms.base: [Telegram] Sending response (2679 chars) to 8547329604
+2026-11-07 02:32:11,163 INFO gateway.control_socket: Gateway control socket listening at /root/.hermes/gateway.sock
+2026-11-07 02:32:11,696 WARNING gateway.lifecycle_ledger: Previous gateway life (pid=26510, started_at=2026-11-07T01:54:13.270985+00:00) exited UNCLEANLY (no exit path ran — SIGKILL / OOM / VM death, or a process kill issued by the agent or one of its descendants, e.g. a pkill/taskkill of the host interpreter image; see #113667). last_heartbeat_at=2026-11-07T02:27:16.309844+00:00 last_mem={'rss_kib': 358856, 'mem_total_kib': 8132888, 'mem_available_kib': 3073080, 'swap_used_kib': 0} suspected_oom=False
+2026-11-07 02:32:12,677 INFO gateway.run: Starting Hermes Gateway...
+2026-11-07 02:32:12,679 INFO gateway.run: Session storage: /root/.hermes/sessions
+2026-11-07 02:32:12,688 INFO gateway.run: Agent budget: max_iterations=150 (agent.max_turns from config.yaml, else the HERMES_MAX_ITERATIONS bridge)
+2026-11-07 02:32:12,688 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-11-07 02:32:12,860 INFO gateway.run: Connecting to telegram...
+2026-11-07 02:32:12,866 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-11-07 02:32:13,196 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-11-07 02:32:13,196 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-11-07 02:32:13,202 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-11-07 02:32:13,725 INFO plugins.platforms.telegram.telegram_network: [Telegram] Using sticky IPv4 Telegram API path 149.154.166.110 (dual-stack hostname tried last — #87015)
+2026-11-07 02:32:13,913 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Cold boot: dropping Telegram updates queued while offline (platforms.telegram.extra.drop_pending_on_cold_boot: true)
+2026-11-07 02:32:14,217 INFO gateway.run: Model context warmed: upstage/solar-mini4:free -> 524288 tokens (detected)
+2026-11-07 02:32:14,217 INFO gateway.run: Turn machinery warmed in 1.4s (21 tool schema(s) materialized)
+2026-11-07 02:32:24,600 INFO plugins.platforms.telegram.telegram_network: [Telegram] Using sticky IPv4 Telegram API path 149.154.166.110 (dual-stack hostname tried last — #87015)
+2026-11-07 02:32:24,601 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram polling confirmed healthy: getUpdates progressing (generation 1)
+2026-11-07 02:32:24,604 WARNING hermes_plugins.platforms__telegram.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-11-07 02:32:24,613 INFO gateway.run: ✓ telegram connected
+2026-11-07 02:32:24,812 INFO gateway.run: Gateway running with 1 platform(s)
+2026-11-07 02:32:24,818 INFO gateway.run: Channel directory built: 1 target(s)
+2026-11-07 02:32:25,444 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (60 cmds)
+2026-11-07 02:32:25,777 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (60 cmds)
+2026-11-07 02:32:26,009 INFO gateway.run: Press Ctrl+C to stop
+2026-11-07 02:32:26,011 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/root/.hermes/kanban/.dispatcher.lock)
+2026-11-07 02:32:26,012 INFO gateway.run: kanban dispatcher: kanban.max_in_progress unset; using memory-derived default max_in_progress=8 (set kanban.max_in_progress in config.yaml to override)
+2026-11-07 02:32:26,017 INFO gateway.run: Cron scheduler will tick 1 profile(s): ['default']
+2026-11-07 02:32:26,021 INFO gateway.run: Auto-started gateway: exits after 600s with no clients, adapters, cron/kanban work or admissions (gateway.unmanaged_idle_exit_seconds)
+2026-11-07 02:32:26,027 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-11-07 02:32:26,142 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (60 cmds)
+2026-11-07 02:32:26,142 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Telegram menu: 60 commands registered, 48 hidden (over 60 limit). Use /commands for full list.
+2026-11-07 02:32:31,013 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-11-07 02:32:51,903 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (12 chars)
+2026-11-07 02:32:51,947 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Iya saya mau' reply_to_id=None reply_to_text=''
+2026-11-07 02:37:00,863 INFO hermes_plugins.platforms__telegram.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8547329604 (choice=once, user=Hasan)
+2026-11-07 02:37:57,184 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=305.2s api_calls=22 response=1675 chars
+2026-11-07 02:37:57,365 INFO gateway.platforms.base: [Telegram] Sending response (1675 chars) to 8547329604
+2026-11-07 02:46:22,825 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (93 chars)
+2026-11-07 02:46:22,855 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='github...iTJ3' reply_to_id=None reply_to_text=''
+2026-11-07 02:50:27,174 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=244.3s api_calls=11 response=2151 chars
+2026-11-07 02:50:27,338 INFO gateway.platforms.base: [Telegram] Sending response (2151 chars) to 8547329604
+2026-11-07 02:54:19,514 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (40 chars)
+2026-11-07 02:54:19,543 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='ghp_Zl...O4DL' reply_to_id=None reply_to_text=''
+2026-11-07 02:55:54,687 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=95.1s api_calls=5 response=1807 chars
+2026-11-07 02:55:54,821 INFO gateway.platforms.base: [Telegram] Sending response (1807 chars) to 8547329604
+2026-11-07 03:05:34,859 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (57 chars)
+2026-11-07 03:05:34,887 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Sekarang bagaimana cara saya mengatasi auto stop 30 menit' reply_to_id=None reply_to_text=''
+2026-11-07 03:06:15,668 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=40.8s api_calls=1 response=2137 chars
+2026-11-07 03:06:15,724 INFO gateway.platforms.base: [Telegram] Sending response (2137 chars) to 8547329604
+2026-11-07 03:17:16,936 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (38 chars)
+2026-11-07 03:17:16,966 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Rekomendasi repositori yang bermanfaat' reply_to_id=None reply_to_text=''
+2026-11-07 03:17:40,075 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=23.1s api_calls=1 response=2015 chars
+2026-11-07 03:17:40,129 INFO gateway.platforms.base: [Telegram] Sending response (2015 chars) to 8547329604
+2026-11-07 03:25:30,029 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (74 chars)
+2026-11-07 03:25:30,058 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Ya buatkan saya list lengkap agar saya bisa berfikir membuat ide repo saya' reply_to_id=None reply_to_text=''
+2026-11-07 03:25:57,856 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=27.8s api_calls=1 response=7303 chars
+2026-11-07 03:25:57,892 INFO gateway.platforms.base: [Telegram] Sending response (7303 chars) to 8547329604
+2026-11-07 03:41:10,083 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (105 chars)
+2026-11-07 03:41:10,115 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Untuk saya yang baru mengenal github apa rekomendasi repo ya agar bermanfaat bag' reply_to_id=None reply_to_text=''
+2026-11-07 03:41:36,403 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=26.3s api_calls=1 response=3835 chars
+2026-11-07 03:41:36,441 INFO gateway.platforms.base: [Telegram] Sending response (3835 chars) to 8547329604
+2026-11-07 03:43:51,321 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (22 chars)
+2026-11-07 03:43:51,360 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Bikin repo yang begini' reply_to_id=None reply_to_text=''
+2026-11-07 03:45:48,389 INFO gateway.run: response ready: platform=telegram chat=8547329604 session=agent:main:telegram:dm:8547329604 time=117.0s api_calls=12 response=1450 chars
+2026-11-07 03:45:48,447 INFO gateway.platforms.base: [Telegram] Sending response (1450 chars) to 8547329604
+2026-11-07 04:28:10,711 INFO hermes_plugins.platforms__telegram.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8547329604 (48 chars)
+2026-11-07 04:28:10,742 INFO gateway.run: inbound message: platform=telegram user=Hasan Udin chat=8547329604 msg='Backup Hermes agen di dalam root codespaces saya' reply_to_id=None reply_to_text=''

@@ -1,0 +1,11 @@
+# Secrets & install IDs
+.env .env.lock auth.json auth.lock install_id install_id.lock .hermes-update-in-progress.lock
+
+# Caches / binary installs (~3GB)
+cache/ image_cache/ audio_cache/ hermes-agent/ installs/ lsp/
+
+# SQLite runtime
+kanban.db-wal kanban.db-shm *.db-wal *.db-shm *.lock context_length_cache.yaml context_length_cache.yaml.lock
+
+# Dynamic runtime state
+gateway.pid gateway.sock gateway.lock gateway-starts.log ticker_heartbeat ticker_last_success

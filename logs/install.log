@@ -1,0 +1,180 @@
+==> Cloning https://github.com/NousResearch/hermes-agent.git (main) into /root/.hermes/hermes-agent (2026-11-07T01:47:32Z)
+Cloning into '/root/.hermes/.hermes-clone-yLs7N3/tree'...
+remote: Enumerating objects: 435547        remote: Enumerating objects: 436290, done.        
+remote: Counting objects:   0% (1/743)        remote: Counting objects:   1% (8/743)        remote: Counting objects:   2% (15/743)        remote: Counting objects:   3% (23/743)        remote: Counting objects:   4% (30/743)        remote: Counting objects:   5% (38/743)        remote: Counting objects:   6% (45/743)        remote: Counting objects:   7% (53/743)        remote: Counting objects:   8% (60/743)        remote: Counting objects:   9% (67/743)        remote: Counting objects:  10% (75/743)        remote: Counting objects:  11% (82/743)        remote: Counting objects:  12% (90/743)        remote: Counting objects:  13% (97/743)        remote: Counting objects:  14% (105/743)        remote: Counting objects:  15% (112/743)        remote: Counting objects:  16% (119/743)        remote: Counting objects:  17% (127/743)        remote: Counting objects:  18% (134/743)        remote: Counting objects:  19% (142/743)        remote: Counting objects:  20% (149/743)        remote: Counting objects:  21% (157/743)        remote: Counting objects:  22% (164/743)        remote: Counting objects:  23% (171/743)        remote: Counting objects:  24% (179/743)        remote: Counting objects:  25% (186/743)        remote: Counting objects:  26% (194/743)        remote: Counting objects:  27% (201/743)        remote: Counting objects:  28% (209/743)        remote: Counting objects:  29% (216/743)        remote: Counting objects:  30% (223/743)        remote: Counting objects:  31% (231/743)        remote: Counting objects:  32% (238/743)        remote: Counting objects:  33% (246/743)        remote: Counting objects:  34% (253/743)        remote: Counting objects:  35% (261/743)        remote: Counting objects:  36% (268/743)        remote: Counting objects:  37% (275/743)        remote: Counting objects:  38% (283/743)        remote: Counting objects:  39% (290/743)        remote: Counting objects:  40% (298/743)        remote: Counting objects:  41% (305/743)        remote: Counting objects:  42% (313/743)        remote: Counting objects:  43% (320/743)        remote: Counting objects:  44% (327/743)        remote: Counting objects:  45% (335/743)        remote: Counting objects:  46% (342/743)        remote: Counting objects:  47% (350/743)        remote: Counting objects:  48% (357/743)        remote: Counting objects:  49% (365/743)        remote: Counting objects:  50% (372/743)        remote: Counting objects:  51% (379/743)        remote: Counting objects:  52% (387/743)        remote: Counting objects:  53% (394/743)        remote: Counting objects:  54% (402/743)        remote: Counting objects:  55% (409/743)        remote: Counting objects:  56% (417/743)        remote: Counting objects:  57% (424/743)        remote: Counting objects:  58% (431/743)        remote: Counting objects:  59% (439/743)        remote: Counting objects:  60% (446/743)        remote: Counting objects:  61% (454/743)        remote: Counting objects:  62% (461/743)        remote: Counting objects:  63% (469/743)        remote: Counting objects:  64% (476/743)        remote: Counting objects:  65% (483/743)        remote: Counting objects:  66% (491/743)        remote: Counting objects:  67% (498/743)        remote: Counting objects:  68% (506/743)        remote: Counting objects:  69% (513/743)        remote: Counting objects:  70% (521/743)        remote: Counting objects:  71% (528/743)        remote: Counting objects:  72% (535/743)        remote: Counting objects:  73% (543/743)        remote: Counting objects:  74% (550/743)        remote: Counting objects:  75% (558/743)        remote: Counting objects:  76% (565/743)        remote: Counting objects:  77% (573/743)        remote: Counting objects:  78% (580/743)        remote: Counting objects:  79% (587/743)        remote: Counting objects:  80% (595/743)        remote: Counting objects:  81% (602/743)        remote: Counting objects:  82% (610/743)        remote: Counting objects:  83% (617/743)        remote: Counting objects:  84% (625/743)        remote: Counting objects:  85% (632/743)        remote: Counting objects:  86% (639/743)        remote: Counting objects:  87% (647/743)        remote: Counting objects:  88% (654/743)        remote: Counting objects:  89% (662/743)        remote: Counting objects:  90% (669/743)        remote: Counting objects:  91% (677/743)        remote: Counting objects:  92% (684/743)        remote: Counting objects:  93% (691/743)        remote: Counting objects:  94% (699/743)        remote: Counting objects:  95% (706/743)        remote: Counting objects:  96% (714/743)        remote: Counting objects:  97% (721/743)        remote: Counting objects:  98% (729/743)        remote: Counting objects:  99% (736/743)        remote: Counting objects: 100% (743/743)        remote: Counting objects: 100% (743/743), done.        
+remote: Compressing objects:   0% (1/244)        remote: Compressing objects:   1% (3/244)        remote: Compressing objects:   2% (5/244)        remote: Compressing objects:   3% (8/244)        remote: Compressing objects:   4% (10/244)        remote: Compressing objects:   5% (13/244)        remote: Compressing objects:   6% (15/244)        remote: Compressing objects:   7% (18/244)        remote: Compressing objects:   8% (20/244)        remote: Compressing objects:   9% (22/244)        remote: Compressing objects:  10% (25/244)        remote: Compressing objects:  11% (27/244)        remote: Compressing objects:  12% (30/244)        remote: Compressing objects:  13% (32/244)        remote: Compressing objects:  14% (35/244)        remote: Compressing objects:  15% (37/244)        remote: Compressing objects:  16% (40/244)        remote: Compressing objects:  17% (42/244)        remote: Compressing objects:  18% (44/244)        remote: Compressing objects:  19% (47/244)        remote: Compressing objects:  20% (49/244)        remote: Compressing objects:  21% (52/244)        remote: Compressing objects:  22% (54/244)        remote: Compressing objects:  23% (57/244)        remote: Compressing objects:  24% (59/244)        remote: Compressing objects:  25% (61/244)        remote: Compressing objects:  26% (64/244)        remote: Compressing objects:  27% (66/244)        remote: Compressing objects:  28% (69/244)        remote: Compressing objects:  29% (71/244)        remote: Compressing objects:  30% (74/244)        remote: Compressing objects:  31% (76/244)        remote: Compressing objects:  32% (79/244)        remote: Compressing objects:  33% (81/244)        remote: Compressing objects:  34% (83/244)        remote: Compressing objects:  35% (86/244)        remote: Compressing objects:  36% (88/244)        remote: Compressing objects:  37% (91/244)        remote: Compressing objects:  38% (93/244)        remote: Compressing objects:  39% (96/244)        remote: Compressing objects:  40% (98/244)        remote: Compressing objects:  41% (101/244)        remote: Compressing objects:  42% (103/244)        remote: Compressing objects:  43% (105/244)        remote: Compressing objects:  44% (108/244)        remote: Compressing objects:  45% (110/244)        remote: Compressing objects:  46% (113/244)        remote: Compressing objects:  47% (115/244)        remote: Compressing objects:  48% (118/244)        remote: Compressing objects:  49% (120/244)        remote: Compressing objects:  50% (122/244)        remote: Compressing objects:  51% (125/244)        remote: Compressing objects:  52% (127/244)        remote: Compressing objects:  53% (130/244)        remote: Compressing objects:  54% (132/244)        remote: Compressing objects:  55% (135/244)        remote: Compressing objects:  56% (137/244)        remote: Compressing objects:  57% (140/244)        remote: Compressing objects:  58% (142/244)        remote: Compressing objects:  59% (144/244)        remote: Compressing objects:  60% (147/244)        remote: Compressing objects:  61% (149/244)        remote: Compressing objects:  62% (152/244)        remote: Compressing objects:  63% (154/244)        remote: Compressing objects:  64% (157/244)        remote: Compressing objects:  65% (159/244)        remote: Compressing objects:  66% (162/244)        remote: Compressing objects:  67% (164/244)        remote: Compressing objects:  68% (166/244)        remote: Compressing objects:  69% (169/244)        remote: Compressing objects:  70% (171/244)        remote: Compressing objects:  71% (174/244)        remote: Compressing objects:  72% (176/244)        remote: Compressing objects:  73% (179/244)        remote: Compressing objects:  74% (181/244)        remote: Compressing objects:  75% (183/244)        remote: Compressing objects:  76% (186/244)        remote: Compressing objects:  77% (188/244)        remote: Compressing objects:  78% (191/244)        remote: Compressing objects:  79% (193/244)        remote: Compressing objects:  80% (196/244)        remote: Compressing objects:  81% (198/244)        remote: Compressing objects:  82% (201/244)        remote: Compressing objects:  83% (203/244)        remote: Compressing objects:  84% (205/244)        remote: Compressing objects:  85% (208/244)        remote: Compressing objects:  86% (210/244)        remote: Compressing objects:  87% (213/244)        remote: Compressing objects:  88% (215/244)        remote: Compressing objects:  89% (218/244)        remote: Compressing objects:  90% (220/244)        remote: Compressing objects:  91% (223/244)        remote: Compressing objects:  92% (225/244)        remote: Compressing objects:  93% (227/244)        remote: Compressing objects:  94% (230/244)        remote: Compressing objects:  95% (232/244)        remote: Compressing objects:  96% (235/244)        remote: Compressing objects:  97% (237/244)        remote: Compressing objects:  98% (240/244)        remote: Compressing objects:  99% (242/244)        remote: Compressing objects: 100% (244/244)        remote: Compressing objects: 100% (244/244), done.        
+Receiving objects:   0% (1/436290)Receiving objects:   1% (4363/436290)Receiving objects:   2% (8726/436290)Receiving objects:   3% (13089/436290)Receiving objects:   4% (17452/436290), 8.14 MiB | 16.20 MiB/sReceiving objects:   5% (21815/436290), 8.14 MiB | 16.20 MiB/sReceiving objects:   6% (26178/436290), 8.14 MiB | 16.20 MiB/sReceiving objects:   7% (30541/436290), 8.14 MiB | 16.20 MiB/sReceiving objects:   8% (34904/436290), 8.14 MiB | 16.20 MiB/sReceiving objects:   8% (37138/436290), 19.18 MiB | 19.14 MiB/sReceiving objects:   9% (39267/436290), 28.49 MiB | 18.52 MiB/sReceiving objects:  10% (43629/436290), 28.49 MiB | 18.52 MiB/sReceiving objects:  10% (47199/436290), 28.49 MiB | 18.52 MiB/sReceiving objects:  11% (47992/436290), 28.49 MiB | 18.52 MiB/sReceiving objects:  12% (52355/436290), 37.04 MiB | 17.32 MiB/sReceiving objects:  13% (56718/436290), 37.04 MiB | 17.32 MiB/sReceiving objects:  14% (61081/436290), 37.04 MiB | 17.32 MiB/sReceiving objects:  15% (65444/436290), 46.45 MiB | 17.58 MiB/sReceiving objects:  16% (69807/436290), 46.45 MiB | 17.58 MiB/sReceiving objects:  16% (73590/436290), 46.45 MiB | 17.58 MiB/sReceiving objects:  17% (74170/436290), 46.45 MiB | 17.58 MiB/sReceiving objects:  18% (78533/436290), 56.04 MiB | 17.83 MiB/sReceiving objects:  19% (82896/436290), 56.04 MiB | 17.83 MiB/sReceiving objects:  20% (87258/436290), 56.04 MiB | 17.83 MiB/sReceiving objects:  21% (91621/436290), 65.45 MiB | 17.71 MiB/sReceiving objects:  22% (95984/436290), 65.45 MiB | 17.71 MiB/sReceiving objects:  23% (100347/436290), 65.45 MiB | 17.71 MiB/sReceiving objects:  23% (104691/436290), 65.45 MiB | 17.71 MiB/sReceiving objects:  24% (104710/436290), 65.45 MiB | 17.71 MiB/sReceiving objects:  25% (109073/436290), 65.45 MiB | 17.71 MiB/sReceiving objects:  26% (113436/436290), 76.04 MiB | 17.76 MiB/sReceiving objects:  27% (117799/436290), 76.04 MiB | 17.76 MiB/sReceiving objects:  28% (122162/436290), 76.04 MiB | 17.76 MiB/sReceiving objects:  29% (126525/436290), 76.04 MiB | 17.76 MiB/sReceiving objects:  30% (130887/436290), 76.04 MiB | 17.76 MiB/sReceiving objects:  31% (135250/436290), 76.04 MiB | 17.76 MiB/sReceiving objects:  32% (139613/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  33% (143976/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  33% (147641/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  34% (148339/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  35% (152702/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  36% (157065/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  37% (161428/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  38% (165791/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  39% (170154/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  40% (174516/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  41% (178879/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  42% (183242/436290), 87.83 MiB | 18.05 MiB/sReceiving objects:  43% (187605/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  44% (191968/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  45% (196331/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  46% (200694/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  47% (205057/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  48% (209420/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  49% (213783/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  50% (218145/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  51% (222508/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  52% (226871/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  53% (231234/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  54% (235597/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  55% (239960/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  56% (244323/436290), 99.64 MiB | 18.49 MiB/sReceiving objects:  56% (244721/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  57% (248686/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  58% (253049/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  59% (257412/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  60% (261774/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  61% (266137/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  62% (270500/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  63% (274863/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  64% (279226/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  65% (283589/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  66% (287952/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  67% (292315/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  68% (296678/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  69% (301041/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  70% (305403/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  71% (309766/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  72% (314129/436290), 111.19 MiB | 18.29 MiB/sReceiving objects:  73% (318492/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  74% (322855/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  75% (327218/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  76% (331581/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  77% (335944/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  78% (340307/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  79% (344670/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  80% (349032/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  80% (353035/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  81% (353395/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  82% (357758/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  83% (362121/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  84% (366484/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  85% (370847/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  86% (375210/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  87% (379573/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  88% (383936/436290), 122.51 MiB | 18.51 MiB/sReceiving objects:  89% (388299/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  90% (392661/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  91% (397024/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  92% (401387/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  93% (405750/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  94% (410113/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  95% (414476/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  96% (418839/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  97% (423202/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  98% (427565/436290), 133.78 MiB | 19.09 MiB/sReceiving objects:  99% (431928/436290), 133.78 MiB | 19.09 MiB/sremote: Total 436290 (delta 582), reused 585 (delta 492), pack-reused 435547 (from 3)        
+Receiving objects: 100% (436290/436290), 133.78 MiB | 19.09 MiB/sReceiving objects: 100% (436290/436290), 143.51 MiB | 18.79 MiB/s, done.
+Resolving deltas:   0% (0/322300)Resolving deltas:   1% (3223/322300)Resolving deltas:   2% (6446/322300)Resolving deltas:   2% (7712/322300)Resolving deltas:   3% (9669/322300)Resolving deltas:   4% (12892/322300)Resolving deltas:   4% (16017/322300)Resolving deltas:   5% (16115/322300)Resolving deltas:   6% (19338/322300)Resolving deltas:   7% (22561/322300)Resolving deltas:   8% (25784/322300)Resolving deltas:   8% (28714/322300)Resolving deltas:   9% (29007/322300)Resolving deltas:  10% (32230/322300)Resolving deltas:  10% (34533/322300)Resolving deltas:  11% (35453/322300)Resolving deltas:  12% (38676/322300)Resolving deltas:  13% (41899/322300)Resolving deltas:  14% (45122/322300)Resolving deltas:  15% (48345/322300)Resolving deltas:  15% (49209/322300)Resolving deltas:  16% (51568/322300)Resolving deltas:  17% (54791/322300)Resolving deltas:  18% (58014/322300)Resolving deltas:  19% (61237/322300)Resolving deltas:  20% (64460/322300)Resolving deltas:  20% (64504/322300)Resolving deltas:  21% (67683/322300)Resolving deltas:  22% (70906/322300)Resolving deltas:  23% (74129/322300)Resolving deltas:  24% (77352/322300)Resolving deltas:  25% (80575/322300)Resolving deltas:  26% (83798/322300)Resolving deltas:  26% (86006/322300)Resolving deltas:  27% (87021/322300)Resolving deltas:  28% (90244/322300)Resolving deltas:  29% (93467/322300)Resolving deltas:  30% (96690/322300)Resolving deltas:  31% (99913/322300)Resolving deltas:  32% (103136/322300)Resolving deltas:  33% (106359/322300)Resolving deltas:  34% (109582/322300)Resolving deltas:  35% (112805/322300)Resolving deltas:  36% (116028/322300)Resolving deltas:  36% (116030/322300)Resolving deltas:  37% (119251/322300)Resolving deltas:  38% (122474/322300)Resolving deltas:  39% (125697/322300)Resolving deltas:  40% (128920/322300)Resolving deltas:  41% (132143/322300)Resolving deltas:  42% (135366/322300)Resolving deltas:  43% (138589/322300)Resolving deltas:  44% (141812/322300)Resolving deltas:  45% (145035/322300)Resolving deltas:  46% (148258/322300)Resolving deltas:  46% (149055/322300)Resolving deltas:  47% (151481/322300)Resolving deltas:  48% (154704/322300)Resolving deltas:  49% (157927/322300)Resolving deltas:  50% (161150/322300)Resolving deltas:  51% (164373/322300)Resolving deltas:  52% (167596/322300)Resolving deltas:  53% (170819/322300)Resolving deltas:  54% (174042/322300)Resolving deltas:  55% (177265/322300)Resolving deltas:  56% (180488/322300)Resolving deltas:  57% (183711/322300)Resolving deltas:  58% (186934/322300)Resolving deltas:  58% (188323/322300)Resolving deltas:  59% (190157/322300)Resolving deltas:  60% (193380/322300)Resolving deltas:  61% (196603/322300)Resolving deltas:  62% (199826/322300)Resolving deltas:  63% (203049/322300)Resolving deltas:  64% (206272/322300)Resolving deltas:  65% (209495/322300)Resolving deltas:  66% (212718/322300)Resolving deltas:  67% (215941/322300)Resolving deltas:  68% (219164/322300)Resolving deltas:  69% (222387/322300)Resolving deltas:  70% (225610/322300)Resolving deltas:  71% (228833/322300)Resolving deltas:  72% (232056/322300)Resolving deltas:  73% (235279/322300)Resolving deltas:  74% (238502/322300)Resolving deltas:  74% (238982/322300)Resolving deltas:  75% (241725/322300)Resolving deltas:  76% (244948/322300)Resolving deltas:  77% (248171/322300)Resolving deltas:  78% (251394/322300)Resolving deltas:  79% (254617/322300)Resolving deltas:  80% (257840/322300)Resolving deltas:  81% (261063/322300)Resolving deltas:  82% (264286/322300)Resolving deltas:  83% (267509/322300)Resolving deltas:  84% (270732/322300)Resolving deltas:  85% (273955/322300)Resolving deltas:  86% (277178/322300)Resolving deltas:  87% (280401/322300)Resolving deltas:  88% (283624/322300)Resolving deltas:  89% (286847/322300)Resolving deltas:  90% (290070/322300)Resolving deltas:  91% (293293/322300)Resolving deltas:  92% (296516/322300)Resolving deltas:  92% (299560/322300)Resolving deltas:  93% (299739/322300)Resolving deltas:  94% (302962/322300)Resolving deltas:  95% (306185/322300)Resolving deltas:  96% (309408/322300)Resolving deltas:  97% (312631/322300)Resolving deltas:  98% (315854/322300)Resolving deltas:  99% (319077/322300)Resolving deltas: 100% (322300/322300)Resolving deltas: 100% (322300/322300), done.
+==> Fetching v0.23.0 (2026-11-07T01:47:57Z)
+==> Checking out v0.23.0 (attempt 1 of 2) (2026-11-07T01:47:58Z)
+HEAD is now at 2bd378ed1b test(desktop-e2e): find the p2 draft tab by its title, not by its status dot
+==> Installing dependencies (hash-verified via uv.lock) (2026-11-07T01:48:15Z)
+Preparing the isolated Hermes runtime…
+  → Installing Python dependencies…
+  ✓ Installing Python dependencies
+  ffmpeg:   3.3%  4.0 MiB / 120.7 MiB
+  ffmpeg:   6.6%  8.0 MiB / 120.7 MiB
+  ffmpeg:   9.9%  12.0 MiB / 120.7 MiB
+  ffmpeg:  13.3%  16.0 MiB / 120.7 MiB
+  ffmpeg:  16.6%  20.1 MiB / 120.7 MiB
+  ffmpeg:  20.0%  24.1 MiB / 120.7 MiB
+  ffmpeg:  23.3%  28.1 MiB / 120.7 MiB
+  ffmpeg:  26.6%  32.1 MiB / 120.7 MiB
+  ffmpeg:  29.9%  36.1 MiB / 120.7 MiB
+  ffmpeg:  33.2%  40.1 MiB / 120.7 MiB
+  ffmpeg:  37.3%  45.1 MiB / 120.7 MiB
+  ffmpeg:  40.7%  49.1 MiB / 120.7 MiB
+  ffmpeg:  44.0%  53.1 MiB / 120.7 MiB
+  ffmpeg:  47.4%  57.2 MiB / 120.7 MiB
+  ffmpeg:  50.7%  61.2 MiB / 120.7 MiB
+  ffmpeg:  54.1%  65.3 MiB / 120.7 MiB
+  ffmpeg:  57.4%  69.3 MiB / 120.7 MiB
+  ffmpeg:  60.7%  73.3 MiB / 120.7 MiB
+  ffmpeg:  64.0%  77.3 MiB / 120.7 MiB
+  ffmpeg:  67.3%  81.3 MiB / 120.7 MiB
+  ffmpeg:  70.7%  85.4 MiB / 120.7 MiB
+  ffmpeg:  74.0%  89.4 MiB / 120.7 MiB
+  ffmpeg:  77.4%  93.5 MiB / 120.7 MiB
+  ffmpeg:  80.7%  97.5 MiB / 120.7 MiB
+  ffmpeg:  84.0%  101.5 MiB / 120.7 MiB
+  ffmpeg:  87.3%  105.5 MiB / 120.7 MiB
+  ffmpeg:  90.7%  109.5 MiB / 120.7 MiB
+  ffmpeg:  94.0%  113.5 MiB / 120.7 MiB
+  ffmpeg:  97.3%  117.5 MiB / 120.7 MiB
+  ffmpeg: 100.0%  120.7 MiB / 120.7 MiB
+  ffmpeg: 100.0%  120.7 MiB / 120.7 MiB
+  ffmpeg: unpacking
+✓ ffmpeg
+  node:  12.3%  4.0 MiB / 32.5 MiB
+  node:  24.8%  8.1 MiB / 32.5 MiB
+  node:  37.3%  12.1 MiB / 32.5 MiB
+  node:  49.8%  16.2 MiB / 32.5 MiB
+  node:  62.3%  20.3 MiB / 32.5 MiB
+  node:  74.8%  24.3 MiB / 32.5 MiB
+  node:  87.3%  28.4 MiB / 32.5 MiB
+  node:  99.8%  32.5 MiB / 32.5 MiB
+  node: 100.0%  32.5 MiB / 32.5 MiB
+  node: 100.0%  32.5 MiB / 32.5 MiB
+  node: unpacking
+✓ node
+  npm: 100.0%  2.9 MiB / 2.9 MiB
+  npm: 100.0%  2.9 MiB / 2.9 MiB
+  npm: unpacking
+✓ npm
+  python:   5.5%  4.0 MiB / 72.7 MiB
+  python:  11.0%  8.0 MiB / 72.7 MiB
+  python:  16.6%  12.1 MiB / 72.7 MiB
+  python:  22.1%  16.1 MiB / 72.7 MiB
+  python:  27.7%  20.2 MiB / 72.7 MiB
+  python:  33.2%  24.2 MiB / 72.7 MiB
+  python:  38.9%  28.3 MiB / 72.7 MiB
+  python:  44.4%  32.3 MiB / 72.7 MiB
+  python:  49.9%  36.3 MiB / 72.7 MiB
+  python:  55.4%  40.3 MiB / 72.7 MiB
+  python:  61.0%  44.4 MiB / 72.7 MiB
+  python:  66.6%  48.5 MiB / 72.7 MiB
+  python:  72.1%  52.5 MiB / 72.7 MiB
+  python:  77.7%  56.6 MiB / 72.7 MiB
+  python:  83.2%  60.6 MiB / 72.7 MiB
+  python:  88.7%  64.6 MiB / 72.7 MiB
+  python:  94.2%  68.6 MiB / 72.7 MiB
+  python:  99.9%  72.6 MiB / 72.7 MiB
+  python: 100.0%  72.7 MiB / 72.7 MiB
+  python: 100.0%  72.7 MiB / 72.7 MiB
+  python: unpacking
+✓ python
+  ripgrep: 100.0%  2.2 MiB / 2.2 MiB
+  ripgrep: 100.0%  2.2 MiB / 2.2 MiB
+  ripgrep: unpacking
+✓ ripgrep
+  → Installing Python dependencies…
+  ✓ Installing Python dependencies
+✓ venv
+  chromium:   2.4%  4.0 MiB / 167.3 MiB
+  chromium:   4.8%  8.0 MiB / 167.3 MiB
+  chromium:   7.2%  12.0 MiB / 167.3 MiB
+  chromium:   9.6%  16.0 MiB / 167.3 MiB
+  chromium:  12.0%  20.0 MiB / 167.3 MiB
+  chromium:  14.3%  24.0 MiB / 167.3 MiB
+  chromium:  16.7%  28.0 MiB / 167.3 MiB
+  chromium:  19.1%  32.0 MiB / 167.3 MiB
+  chromium:  21.5%  36.0 MiB / 167.3 MiB
+  chromium:  23.9%  40.0 MiB / 167.3 MiB
+  chromium:  26.3%  44.0 MiB / 167.3 MiB
+  chromium:  28.7%  48.0 MiB / 167.3 MiB
+  chromium:  31.1%  52.0 MiB / 167.3 MiB
+  chromium:  33.5%  56.0 MiB / 167.3 MiB
+  chromium:  35.9%  60.0 MiB / 167.3 MiB
+  chromium:  38.3%  64.0 MiB / 167.3 MiB
+  chromium:  40.6%  68.0 MiB / 167.3 MiB
+  chromium:  43.0%  72.0 MiB / 167.3 MiB
+  chromium:  45.4%  76.0 MiB / 167.3 MiB
+  chromium:  47.8%  80.0 MiB / 167.3 MiB
+  chromium:  50.2%  84.0 MiB / 167.3 MiB
+  chromium:  52.6%  88.0 MiB / 167.3 MiB
+  chromium:  55.0%  92.0 MiB / 167.3 MiB
+  chromium:  57.4%  96.0 MiB / 167.3 MiB
+  chromium:  59.8%  100.0 MiB / 167.3 MiB
+  chromium:  62.2%  104.0 MiB / 167.3 MiB
+  chromium:  64.5%  108.0 MiB / 167.3 MiB
+  chromium:  66.9%  112.0 MiB / 167.3 MiB
+  chromium:  69.3%  116.0 MiB / 167.3 MiB
+  chromium:  71.7%  120.0 MiB / 167.3 MiB
+  chromium:  74.1%  124.0 MiB / 167.3 MiB
+  chromium:  76.5%  128.0 MiB / 167.3 MiB
+  chromium:  79.5%  133.0 MiB / 167.3 MiB
+  chromium:  82.4%  137.9 MiB / 167.3 MiB
+  chromium:  85.4%  142.8 MiB / 167.3 MiB
+  chromium:  88.3%  147.7 MiB / 167.3 MiB
+  chromium:  91.2%  152.6 MiB / 167.3 MiB
+  chromium:  94.1%  157.5 MiB / 167.3 MiB
+  chromium:  96.5%  161.5 MiB / 167.3 MiB
+  chromium:  99.5%  166.4 MiB / 167.3 MiB
+  chromium: 100.0%  167.3 MiB / 167.3 MiB
+  chromium: 100.0%  167.3 MiB / 167.3 MiB
+  chromium: unpacking
+✓ chromium
+  cua-driver:  16.1%  4.4 MiB / 27.5 MiB
+  cua-driver:  32.3%  8.9 MiB / 27.5 MiB
+  cua-driver:  48.4%  13.3 MiB / 27.5 MiB
+  cua-driver:  66.1%  18.2 MiB / 27.5 MiB
+  cua-driver:  82.3%  22.6 MiB / 27.5 MiB
+  cua-driver:  98.4%  27.0 MiB / 27.5 MiB
+  cua-driver: 100.0%  27.5 MiB / 27.5 MiB
+  cua-driver: 100.0%  27.5 MiB / 27.5 MiB
+  cua-driver: unpacking
+✗ cua-driver: staged entry failed verification: /root/.hermes/tools/.staging-5j_s0v95/tree/cua-driver --version exited 127: /root/.hermes/tools/.staging-5j_s0v95/tree/cua-driver: error while loading shared libraries: libXi.so.6: cannot open shared object file: No such file or directory — retry, or run `hermes pm doctor`
+⚠ optional cua-driver was not installed; its tools stay unavailable until `hermes pm install cua-driver` succeeds
+==> Building the hermes command and apps (2026-11-07T01:50:09Z)
+Preparing the isolated Hermes runtime…
+  → Installing Python dependencies…
+  ✓ Installing Python dependencies
+  → Preparing Node dependencies…
+  ✓ Preparing Node dependencies
+  → Building the TUI…
+  ✓ Building the TUI
+  → Building the web UI…
+  ✓ Building the web UI
+  ✓ Model catalog cache refreshed from checkout
+
+→ Syncing bundled skills...
+  + 44 new: sdlc-review, xurl, simplify-code, systematic-debugging, github, dogfood, spike, requesting-code-review, codebase-inspection, test-driven-development, obsidian, computer-use, claude-code, hermes-agent, codex, apple-notes, imessage, findmy, apple-reminders, blocked-page-recovery, himalaya, email-inbox-triage, grounded-citations, arxiv, competitor-news-monitor, ascii-video, baoyu-infographic, architecture-diagram, p5js, humanizer, claude-design, popular-web-designs, songwriting-and-ai-music, manim-video, youtube-content, product-price-monitor, microsoft-office, document-to-action-items, pdf, maps, weekly-review-planning, google-workspace, meeting-action-items, teams-meeting-pipeline
+
+→ Syncing bundled skills to all profiles...
+  default: up to date
+
+→ Checking configuration for new options...
+  ✓ Configuration is up to date
+
+✓ Install complete! [detached @ 2bd378ed1b]
+
+ℹ Skill curator
+  Background skill maintenance is enabled. First pass is deferred ~7d after installation; only agent-created skills are in scope and nothing is ever auto-deleted (archive is recoverable).
+  Preview now:  hermes curator run --dry-run
+  Pause it:     hermes curator pause
+  Docs:         https://hermes-agent.nousresearch.com/docs/user-guide/features/curator
+
+→ Installing cua-driver (default tool; opt out with `hermes pm install --without cua-driver`)...
+  ⚠ cua-driver was not installed: cua-driver: staged entry failed verification: /root/.hermes/tools/.staging-1349rx5b/tree/cua-driver --version exited 127: /root/.hermes/tools/.staging-1349rx5b/tree/cua-driver: error while loading shared libraries: libXi.so.6: cannot open shared object file: No such file or directory — retry, or run `hermes pm doctor`
+    Retry with: hermes pm install cua-driver
